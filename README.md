@@ -1,4 +1,4 @@
-## AWS
+## AWS (as of Sep 2020)
 
 ### Identity, Security
 - IAM
