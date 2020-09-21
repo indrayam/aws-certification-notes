@@ -35,6 +35,7 @@
 - CloudFront
 - Route53
 - Elastic Load Balancing (ELB)
+- API Gateway
 
 ### Storage
 - Elastic Block Store (EBS)
