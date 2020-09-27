@@ -35,6 +35,7 @@
 - [Designing Serverless Architecture with AWS Lambda **April 2019**](https://learning.oreilly.com/live-training/courses/designing-serverless-architecture-with-aws-lambda/0636920263869/)
 - [Chad Smith: AWS Monitoring Strategies **Sept 2020**](https://learning.oreilly.com/live-training/courses/aws-monitoring-strategies/0636920411703/)
 - [AWS Training](https://www.aws.training/)
+- [edX AWS Courses](https://courses.edx.org/dashboard)
 
 ## AWS Certified Cloud Practitioner
 - [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard)
