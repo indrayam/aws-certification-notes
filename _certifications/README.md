@@ -8,6 +8,13 @@
 
 ## Learn AWS
 
+### Projects
+- AWS The Good Parts
+- Manning LiveProject: [Automating Infrastructure for an E-commerce Website with Terraform and AWS
+](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
+- Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
+- Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
+
 ### Books
 - AWS The Good Parts
 - AWS Security
@@ -63,3 +70,6 @@
 
 ## AWS Certified SysOp Administrator - Associate
 - [AWS Training: Exam Readiness: AWS Certified SysOps Administrator - Associate](https://www.aws.training/Details/Video?id=27486)
+
+## AWS Networking Specialty Certification
+- [Chad Smith: AWS Network Certification GitHub Repo](https://github.com/arpcefxl/aws-network-certification)
