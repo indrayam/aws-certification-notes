@@ -14,6 +14,7 @@
 ](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
 - Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
 - Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
+- [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
 
 ### Books
 - AWS The Good Parts
