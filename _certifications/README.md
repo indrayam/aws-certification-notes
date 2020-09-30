@@ -31,9 +31,6 @@
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard)
 - [acloud.guru: AWS Certification Preparation Guide](https://learn.acloud.guru/course/aws-certification-preparation/dashboard)
 - [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
-- [Dieter Matzion: Managing Cloud Costs **Oct 2019**](https://learning.oreilly.com/live-training/courses/managing-cloud-costs/0636920321736/)
-- [Chad Smith: AWS Account Setup Best Practices **May 2019**](https://learning.oreilly.com/live-training/courses/aws-account-setup-best-practices/0636920266549/)
-- [Richard Jones: AWS From Basics to Advanced **Dec 2017**](https://learning.oreilly.com/learning-paths/learning-path-amazon/9780135116548/?autoplay=false)
 - [AWS Training](https://www.aws.training/)
 - [edX AWS Courses](https://courses.edx.org/dashboard)
 
@@ -67,6 +64,9 @@
 
 ## AWS Certified Solutions Architect - Professional
 - [acloud.guru: AWS Certified Solutions Architect - Professional 2020](https://acloud.guru/learn/aws-certified-solutions-architect-professional?_ga=2.211328726.2113966801.1601496229-472653352.1600688128)
+- [Dieter Matzion: Managing Cloud Costs **Oct 2019**](https://learning.oreilly.com/live-training/courses/managing-cloud-costs/0636920321736/)
+- [Chad Smith: AWS Account Setup Best Practices **May 2019**](https://learning.oreilly.com/live-training/courses/aws-account-setup-best-practices/0636920266549/)
+- [Richard Jones: AWS From Basics to Advanced **Dec 2017**](https://learning.oreilly.com/learning-paths/learning-path-amazon/9780135116548/?autoplay=false)
 
 ## AWS Certified DevOps Engineer - Professional
 - [Richard Jones: Automation in AWS with CloudFormation **2017**](https://learning.oreilly.com/videos/automation-in-aws/9780134818313?autoplay=false)
