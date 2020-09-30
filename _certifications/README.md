@@ -28,7 +28,7 @@
 - [AWS Certified Developer Official Study Guide, Associate Exam **Sep 2019**](https://learning.oreilly.com/library/view/aws-certified-developer/9781119508199/)
 
 ### VoD
-- [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard)
+- [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) 🚧
 - [acloud.guru: AWS Certification Preparation Guide](https://learn.acloud.guru/course/aws-certification-preparation/dashboard)
 - [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
 - [AWS Training](https://www.aws.training/)
@@ -77,8 +77,8 @@
 - [Designing Serverless Architecture with AWS Lambda **April 2019**](https://learning.oreilly.com/live-training/courses/designing-serverless-architecture-with-aws-lambda/0636920263869/)
 
 ## AWS Networking Specialty Certification
+- [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/) 🚧
+- [Richard Jones: Networking in AWS **2017**](https://learning.oreilly.com/videos/networking-in-amazon/9780134850849?autoplay=false) 
+- [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/)
 - [Chad Smith: AWS Network Certification GitHub Repo](https://github.com/arpcefxl/aws-network-certification)
-- [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/)
-- [Richard Jones: Networking in AWS **2017**](https://learning.oreilly.com/videos/networking-in-amazon/9780134850849?autoplay=false) 🚧
-- [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/) 🚧
 
