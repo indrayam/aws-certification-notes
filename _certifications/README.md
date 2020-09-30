@@ -35,7 +35,7 @@
 - [Chad Smith: AWS Account Setup Best Practices **May 2019**](https://learning.oreilly.com/live-training/courses/aws-account-setup-best-practices/0636920266549/)
 - [Richard Jones: AWS From Basics to Advanced **Dec 2017**](https://learning.oreilly.com/learning-paths/learning-path-amazon/9780135116548/?autoplay=false)
 - [Richard Jones: Networking in AWS **2017**](https://learning.oreilly.com/videos/networking-in-amazon/9780134850849?autoplay=false)
-- [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/)
+- [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/) 🚧
 - [Richard Jones: Automation in AWS with CloudFormation **2017**](https://learning.oreilly.com/videos/automation-in-aws/9780134818313?autoplay=false)
 - [Richard Jones: AWS CloudFormation Deep Dive **April 2019**](https://learning.oreilly.com/live-training/courses/aws-cloudformation-deep-dive/0636920252399/)
 - [Richard Jones: Deploying Container-Based Microservices on AWS **Mar 2019**](https://learning.oreilly.com/live-training/courses/deploying-container-based-microservices-on-aws/0636920238485/)
