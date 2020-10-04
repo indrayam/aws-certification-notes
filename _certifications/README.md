@@ -1,4 +1,4 @@
-# Certifications
+# Getting AWS Certifications
 
 - AWS Certified Cloud Practitioner
 - AWS Certified Solutions Architect - Associate
@@ -6,11 +6,26 @@
 - AWS Certified Developer - Associate
 - AWS Certified Advanced Networking - Specialty
 
-## Learning AWS (Progress)
+## Getting AWS Certified (Current Progress)
+
+### Training Content 
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) 🚧
 - [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/)
 
-## Learning AWS
+### AWS Services For Certifications
+- AWS Global Infrastructure
+- Networking & Content Delivery
+  + VPC
+  + Route53
+- Compute
+- Storage
+- Databases
+- Messaging
+- Security & Identity
+- Management Tools
+
+
+## Getting AWS Certified (Learning)
 
 ### Projects
 - AWS The Good Parts
