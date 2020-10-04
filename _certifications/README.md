@@ -1,4 +1,4 @@
-# Getting AWS Certifications
+# Getting AWS Certifications: My Notes
 
 - AWS Certified Cloud Practitioner
 - AWS Certified Solutions Architect - Associate
@@ -8,21 +8,80 @@
 
 ## Getting AWS Certified (Current Progress)
 
-### Training Content 
+### Preparing for CCP
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) 🚧
 - [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/)
+- [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard)
+- [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
+- [Richard Jones: AWS Certified Cloud Practitioner, 1/e **May 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135940037/?autoplay=false)
+- [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 
-### AWS Services For Certifications
+### AWS Services to Peruse
 - AWS Global Infrastructure
+  + 24 Regions (3 more coming)
+  + 77 Availability Zones
+  + 217 PoP (205 Edge; 12 Regional Caches)
 - Networking & Content Delivery
-  + VPC
+  + VPC (Virtual Private Cloud)
   + Route53
+  + CloudFront
+  + DirectConnect
 - Compute
+  + EC2 (Elastic Compute Cloud)
+    - EBS (Elastic Block Store): Virtual disk that you attach to your EC2.
+  + ECS (EC2 Container Service) *Not an Exam Topic*
+  + Elastic Beanstalk 
+  + Lambda *Not an Exam Topic*
+  + Lightsail *Not an Exam Topic*
 - Storage
+  + S3 (Simple Storage Service): Object storage.
+  + Glacier
+  + EFS (Elastic File Service): File storage. Shared. Think NFS!
+  + Storage Gateway
 - Databases
-- Messaging
+  + RDS (MySQL, Postgres, MariaDB, Oracle, MS SQLServer, Aurora): Relational Database
+  + DynamoDB: NoSQL database.
+  + Redshift: Data Warehouse solution
+  + Elasticache: K/V store. Caching solution. Think Redis!
+- Migration
+  + Snowball: An appliance to migrate/transfer content from Enterprise to AWS
+  + Snowball Edge
+  + DMS (Database Migration Service): A service to migrate database from enterprises into AWS or within AWS regions or even across Database types
+  + SMS (Server Migration Service): A service to migrate VMs
+- Analytics
+  + Athena: Turning flat files (CSV) into databases with SQL query frontend
+  + EMR (Elastic Map Reduce): Used to process large amounts of data! Using framework called Hadoop or Spark
+  + Cloud Search: Fully managed AWS service
+  + Elastic Search: Service using Elastic!
+  + Kinesis: Streaming and analyzing realtime data. Example: Financial transaction analysis in realtime, social media stream analysis for sentiment analysis
+  + Data Pipeline: Move data from S3 to DynamoDB, for example
+  + Quick Sight: Business Analytics tool. Visualization tool. 
 - Security & Identity
+  + IAM (Identity and Access Management) *Comes up in all exams*
+  + Inspector: Agent you install on each VM that inspects security posture of the VM
+  + Certificate Manager: Think Lets Encrypt.
+  + Directory Service
+  + WAF (Web Application Firewall): App level firewall protection (Cross-site scripting, SQL injection etc.)
+  + Artifacts: Compliance Reports/Documents
 - Management Tools
+  + Cloud Watch: Monitor performance of things like EC2 (Disk Utilization, RAM Utilization etc.)
+  + Cloud Formation: Turn your infrastructure provisioning effort from imperative scripts to declarative scripts. Infra as Code.
+  + Cloud Trail: Auditing changes to your AWS environment
+  + Opsworks: Chef based Config Management
+  + Config: Audit + setup alerts
+  + Service Catalog: For larger enterprises. Build out what they authorize to be used
+  + Trusted Advisor: Give tips on your setup. Example: Cost optimization
+- Application Services
+  + Step Functions
+  + SWF (Simple Workflow Service)
+  + API Gateway: Create, publish and Monitor APIs which routes request to business functionalities (like Lambda). Think doorway to accessing your backend services
+  + AppStream
+  + Elastic Transcoder: Changes video format to support different devices
+- Developer Tools
+  + CodeCommit: Think GitHub (Git portion)
+  + CodeBuild: Run Compilation/CI on your code
+  + CodeDeploy
+  + CodePipeline: Wraps them all into a Pipeline
 
 
 ## Getting AWS Certified (Learning)
