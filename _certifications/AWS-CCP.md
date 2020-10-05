@@ -58,9 +58,19 @@
   + Workspaces: Think VDI
   + AppStream 2.0: Streaming desktop apps to your users
 
-## Exam Domains 
+## Exam Domains (High-level)
 - Cloud Concepts
 - Security
 - Technology
 - Billing and Pricing
+
+## Exam Domains ()
+- Define what the AWS Cloud is and the basic global infrastructure
+- Describe basic AWS Cloud architectural principles
+- Describe the AWS Cloud value proposition
+- Describe key services on the AWS platform and their common use cases (for example, compute and analytics)
+- Describe basic security and compliance aspects of the AWS platform and the shared security model
+- Define the billing, account management, and pricing models
+- Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
+- Describe basic/core characteristics of deploying and operating in the AWS Cloud
 
