@@ -1,6 +1,9 @@
 # AWS Certified Cloud Practitioner (CCP) 2020
 
-### ToC
+## AWS CCP Home
+[AWS CCP 2020](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+
+## Preparation Materials
 - [acloud.guru: Introduction to Cloud Computing](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [Richard Jones: AWS Certified Cloud Practitioner, 1/e **May 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135940037/?autoplay=false) 🚧
@@ -8,7 +11,7 @@
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
-### AWS Services to Understand
+## AWS Services to Understand
 - AWS Global Infrastructure
   + 24 Regions (3 more coming)
   + 77 Availability Zones
