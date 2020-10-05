@@ -44,19 +44,10 @@
   + DynamoDB: NoSQL database.
   + Redshift: Data Warehouse solution
   + Elasticache: K/V store. Caching solution. Think Redis!
-- Migration
-  + Snowball: An appliance to migrate/transfer content from Enterprise to AWS
-  + Snowball Edge
-  + DMS (Database Migration Service): A service to migrate database from enterprises into AWS or within AWS regions or even across Database types
-  + SMS (Server Migration Service): A service to migrate VMs
-- Analytics
-  + Athena: Turning flat files (CSV) into databases with SQL query frontend
-  + EMR (Elastic Map Reduce): Used to process large amounts of data! Using framework called Hadoop or Spark
-  + Cloud Search: Fully managed AWS service
-  + Elastic Search: Service using Elastic!
-  + Kinesis: Streaming and analyzing realtime data. Example: Financial transaction analysis in realtime, social media stream analysis for sentiment analysis
-  + Data Pipeline: Move data from S3 to DynamoDB, for example
-  + Quick Sight: Business Analytics tool. Visualization tool. 
+- Messaging
+  + SNS (Simple Notification Service): Via email or text message or to HTTP(S) end points
+  + SQS (Simple Query Service): Decouple your application by introduce async processing
+  + SES (Simple Email Service): Sending and receiving emails
 - Security & Identity
   + IAM (Identity and Access Management) *Comes up in all exams*
   + Inspector: Agent you install on each VM that inspects security posture of the VM
@@ -65,25 +56,59 @@
   + WAF (Web Application Firewall): App level firewall protection (Cross-site scripting, SQL injection etc.)
   + Artifacts: Compliance Reports/Documents
 - Management Tools
-  + Cloud Watch: Monitor performance of things like EC2 (Disk Utilization, RAM Utilization etc.)
   + Cloud Formation: Turn your infrastructure provisioning effort from imperative scripts to declarative scripts. Infra as Code.
+  + Cloud Watch: Monitor performance of things like EC2 (Disk Utilization, RAM Utilization etc.)
   + Cloud Trail: Auditing changes to your AWS environment
   + Opsworks: Chef based Config Management
   + Config: Audit + setup alerts
   + Service Catalog: For larger enterprises. Build out what they authorize to be used
   + Trusted Advisor: Give tips on your setup. Example: Cost optimization
+- Desktop & App Streaming
+  + Workspaces: Think VDI
+  + AppStream 2.0: Streaming desktop apps to your users
+
+---
+
+- Developer Tools
+  + CodeCommit: Think GitHub (Git portion)
+  + CodeBuild: Run Compilation/CI on your code
+  + CodeDeploy
+  + CodePipeline: Wraps them all into a Pipeline
 - Application Services
   + Step Functions
   + SWF (Simple Workflow Service)
   + API Gateway: Create, publish and Monitor APIs which routes request to business functionalities (like Lambda). Think doorway to accessing your backend services
   + AppStream
   + Elastic Transcoder: Changes video format to support different devices
-- Developer Tools
-  + CodeCommit: Think GitHub (Git portion)
-  + CodeBuild: Run Compilation/CI on your code
-  + CodeDeploy
-  + CodePipeline: Wraps them all into a Pipeline
-
+- Analytics
+  + Athena: Turning flat files (CSV) into databases with SQL query frontend
+  + EMR (Elastic Map Reduce): Used to process large amounts of data! Using framework called Hadoop or Spark
+  + Cloud Search: Fully managed AWS service
+  + Elastic Search: Service using Elastic!
+  + Kinesis: Streaming and analyzing realtime data. Example: Financial transaction analysis in realtime, social media stream analysis for sentiment analysis
+  + Data Pipeline: Move data from S3 to DynamoDB, for example
+  + Quick Sight: Business Analytics tool. Visualization tool. 
+- AI
+  + lex
+  + polly: text into voice
+  + machine learning: give the dataset and predict outcome based on the learning
+  + rekognition: upload a pic and it will tell you what picture it is
+- Mobile App Services
+  + Cognito
+  + Device Farm
+  + Mobile Hub
+  + Mobile Analytics
+  + PinPoint: Think of combining Google Analytics with targeted marketing campaigns.
+- Business Productivity
+  + WorkDocs: Think Sharepoint
+  + WorkMail: Think Exchange
+- IoT
+  + iOT
+- Migration
+  + Snowball: An appliance to migrate/transfer content from Enterprise to AWS
+  + Snowball Edge
+  + DMS (Database Migration Service): A service to migrate database from enterprises into AWS or within AWS regions or even across Database types
+  + SMS (Server Migration Service): A service to migrate VMs
 
 ## Getting AWS Certified (Learning)
 
