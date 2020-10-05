@@ -11,21 +11,33 @@
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
-## Exam Domains Categories
-- Cloud Concepts
-- Security
-- Technology
-- Billing and Pricing
+## Exam Format
+- 90 mins
+- ~65 questions
+- Your results for the examination are reported as a score from 100–1,000, with a minimum passing score of 700. Your score shows how you performed on the examination as a whole and whether or not you passed. 
 
-## Abilities validated by the certification
-- Define what the AWS Cloud is and the basic global infrastructure
-- Describe basic AWS Cloud architectural principles
-- Describe the AWS Cloud value proposition
-- Describe key services on the AWS platform and their common use cases (for example, compute and analytics)
-- Describe basic security and compliance aspects of the AWS platform and the shared security model
-- Define the billing, account management, and pricing models
-- Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
-- Describe basic/core characteristics of deploying and operating in the AWS Cloud
+## Exam Domains Categories
+**Domain 1: Cloud Concepts**
+- Define the AWS Cloud and its value proposition
+- Identify aspects of AWS Cloud economics
+- List the different cloud architecture design principles
+
+**Domain 2: Security and Compliance**
+- Define the AWS shared responsibility model
+- Define AWS Cloud security and compliance concepts
+- Identify AWS access management capabilities
+- Identify resources for security support
+
+**Domain 3: Technology**
+- Define methods of deploying and operating in the AWS Cloud
+- Define the AWS global infrastructure
+- Identify the core AWS services
+- Identify resources for technology support
+
+**Domain 4: Billing and Pricing**
+- Compare and contrast the various pricing models for AWS
+- Recognize the various account structures in relation to - billing and pricing
+- Identify resources available for billing support
 
 ### Exam-centric AWS Services
 - AWS Global Infrastructure
