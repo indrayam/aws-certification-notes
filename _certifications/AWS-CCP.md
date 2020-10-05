@@ -11,7 +11,25 @@
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
-## AWS Services to Understand
+## My Notes
+
+### Exam Domains (High-level)
+- Cloud Concepts
+- Security
+- Technology
+- Billing and Pricing
+
+### Exam Domains ()
+- Define what the AWS Cloud is and the basic global infrastructure
+- Describe basic AWS Cloud architectural principles
+- Describe the AWS Cloud value proposition
+- Describe key services on the AWS platform and their common use cases (for example, compute and analytics)
+- Describe basic security and compliance aspects of the AWS platform and the shared security model
+- Define the billing, account management, and pricing models
+- Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
+- Describe basic/core characteristics of deploying and operating in the AWS Cloud
+
+### AWS Services to Understand
 - AWS Global Infrastructure
   + 24 Regions (3 more coming)
   + 77 Availability Zones
@@ -61,19 +79,48 @@
   + Workspaces: Think VDI
   + AppStream 2.0: Streaming desktop apps to your users
 
-## Exam Domains (High-level)
-- Cloud Concepts
-- Security
-- Technology
-- Billing and Pricing
+## References
 
-## Exam Domains ()
-- Define what the AWS Cloud is and the basic global infrastructure
-- Describe basic AWS Cloud architectural principles
-- Describe the AWS Cloud value proposition
-- Describe key services on the AWS platform and their common use cases (for example, compute and analytics)
-- Describe basic security and compliance aspects of the AWS platform and the shared security model
-- Define the billing, account management, and pricing models
-- Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
-- Describe basic/core characteristics of deploying and operating in the AWS Cloud
+### Additional AWS Services
+- Developer Tools
+  + CodeCommit: Think GitHub (Git portion)
+  + CodeBuild: Run Compilation/CI on your code
+  + CodeDeploy
+  + CodePipeline: Wraps them all into a Pipeline
+- Application Services
+  + Step Functions
+  + SWF (Simple Workflow Service)
+  + API Gateway: Create, publish and Monitor APIs which routes request to business functionalities (like Lambda). Think doorway to accessing your backend services
+  + AppStream
+  + Elastic Transcoder: Changes video format to support different devices
+- Analytics
+  + Athena: Turning flat files (CSV) into databases with SQL query frontend
+  + EMR (Elastic Map Reduce): Used to process large amounts of data! Using framework called Hadoop or Spark
+  + Cloud Search: Fully managed AWS service
+  + Elastic Search: Service using Elastic!
+  + Kinesis: Streaming and analyzing realtime data. Example: Financial transaction analysis in realtime, social media stream analysis for sentiment analysis
+  + Data Pipeline: Move data from S3 to DynamoDB, for example
+  + Quick Sight: Business Analytics tool. Visualization tool. 
+- AI
+  + lex
+  + polly: text into voice
+  + machine learning: give the dataset and predict outcome based on the learning
+  + rekognition: upload a pic and it will tell you what picture it is
+- Mobile App Services
+  + Cognito
+  + Device Farm
+  + Mobile Hub
+  + Mobile Analytics
+  + PinPoint: Think of combining Google Analytics with targeted marketing campaigns.
+- Business Productivity
+  + WorkDocs: Think Sharepoint
+  + WorkMail: Think Exchange
+- IoT
+  + iOT
+- Migration
+  + Snowball: An appliance to migrate/transfer content from Enterprise to AWS
+  + Snowball Edge
+  + DMS (Database Migration Service): A service to migrate database from enterprises into AWS or within AWS regions or even across Database types
+  + SMS (Server Migration Service): A service to migrate VMs
+
 
