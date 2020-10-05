@@ -1,4 +1,4 @@
-# AWS Certified Cloud Practitioner (CCP) 2020
+# AWS Certified Cloud Practitioner (CCP) 2020: My Notes
 
 ## AWS CCP Home
 [AWS CCP 2020](https://aws.amazon.com/certification/certified-cloud-practitioner/)
@@ -11,15 +11,13 @@
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
-## My Notes
-
-### Exam Domains (High-level)
+## Exam Domains Categories
 - Cloud Concepts
 - Security
 - Technology
 - Billing and Pricing
 
-### Exam Domains ()
+## Abilities validated by the certification
 - Define what the AWS Cloud is and the basic global infrastructure
 - Describe basic AWS Cloud architectural principles
 - Describe the AWS Cloud value proposition
@@ -29,7 +27,7 @@
 - Identify sources of documentation or technical assistance (for example, whitepapers or support tickets)
 - Describe basic/core characteristics of deploying and operating in the AWS Cloud
 
-### AWS Services to Understand
+### Exam-centric AWS Services
 - AWS Global Infrastructure
   + 24 Regions (3 more coming)
   + 77 Availability Zones
@@ -81,7 +79,7 @@
 
 ## References
 
-### Additional AWS Services
+**Additional AWS Services**
 - Developer Tools
   + CodeCommit: Think GitHub (Git portion)
   + CodeBuild: Run Compilation/CI on your code
