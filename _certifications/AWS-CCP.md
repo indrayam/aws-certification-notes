@@ -89,6 +89,124 @@
   + Workspaces: Think VDI
   + AppStream 2.0: Streaming desktop apps to your users
 
+
+## Notes
+- Cloud Computing
+  + On demand, self-service
+  + elastic
+  + metered pricing
+- Service Models
+  + IaaS
+  + PaaS
+  + SaaS
+- Deployment Models
+  + Private
+  + Public
+  + Hybrid
+- What do we want from our Infra/App?
+  + High Availability/Resiliency
+  + Security
+  + Durability
+  + Performance
+  + Cost-effectiveness
+  + Scalability
+  + Automation
+- What do we want from our Process and/or Workflow?
+  + Agile
+  + Flexible
+  + Efficient
+  + Secure
+- From a Business Perspective
+  + Fast time to market
+  + Secure, reliable data center
+  + Opex over CapEx
+  + No long-term commitments
+  + Immediate scalability
+  + Easier Cost Allocation
+- AWS Cloud Value Proposition
+  + On-demand resources (..get what you need, when you need it)
+  + Pay as you go (..use what you need)
+  + No long term commitments (..feel free to throw things away if you don't need it)
+  + Highly automated (repeatable infrastructures)
+  + Managed Services (with inherent high-availability, security, durability)
+- AWS Global Infra
+  + Regions ~27, Availability Zones ~86, Local Zones ~2, WaveLength Zones ~5, Edge Locations ~205, Regional Edge Caches ~12, Outposts
+  + Regions: 
+    - US West: Oregon, N. California, GovCloud (US-West)
+    - US East: Ohio, N. Virgina, GovCloud (US-East)
+    - Canada (Central)
+    - South America: Sao Paulo
+    - Europe: Spain (NEW), Ireland, London, Paris, Milan, Frankfurt, Stockholm
+    - Middle East: Bahrain
+    - Africa: Cape Town
+    - Asia Pacific: Mumbai, Hong Kong, Seoul, Tokyo, Japan (New), Singapore, Indonesia (New), Sydney
+    - Mainland China: Beijing, Ningxia
+  + Choosing a Region
+    - Available Services and Features
+    - Cost of Services
+    - Latency, Proximity to Users
+    - Disaster Recovery
+    - Security & Compliance
+  + Availability Zones:
+    - Each AZ is at least one, sometimes 2 or more, DCs very close to each other
+    - AZs are connected with private fiber
+  + Edge Locations
+    - These locations power AWS CDN (CloudFront) and DNS (Route53) services
+- Networking using VPC
+  + Logically isolated network. It cannot connect to other VPC or outside world without configuration
+  + Created per account, per Region
+  + Embrace the idea of multiple VPCs for your App Architecture
+  + One VPC spans one single Region. Translation: One VPC can use "all" AZs within one Region
+  + VPCs can peer with one another. However, in order for that to happen, the CIDR block for the two VPCs trying to peer should not have overlapping IP addresses
+  + VPCs allow us to create Internet and VPN Gateways
+  + VPCs provide numerous security mechanisms: Security Groups etc.
+  + There is a soft limit of 5 VPCs per Region, per Account. However, you can request to have that be increased
+- Subnets in VPC
+  + Divide VPCs into Subnets
+  + Subnets are tied 1:1 with AZs
+  + For example, if the VPC CIDR is set to 10.2.0.0/16, by definition it has a total of ~65k addresses it can work (read, subnet) with. If we the region has 3 AZs and we decided to create 3 subnets, one for each AZ, we could create the following subnets:
+    - 10.2.0.0/24 can have a maximum of 2^8 - 2 = 254 Hosts in the Subnet
+      Network IP: 10.2.0.0/24
+      Broadcast IP: 10.2.0.255/24
+      Usable IP Addresses: 10.2.0.1 to 10.2.0.254
+    - 10.2.1.0/24 can have a maximum of 2^8 - 2 = 254 Hosts in the Subnet
+      Network IP: 10.2.1.0/24
+      Broadcast IP: 10.2.1.255/24
+      Usable IP Addresses: 10.2.1.1 to 10.2.1.254
+    - 10.2.2.0/28 can have a maximum of 2^4 - 2 = 14 Hosts in the Subnet
+      Network IP: 10.2.2.0/28
+      Broadcast IP: 10.2.2.15/28
+      Usable IP Addresses: 10.2.2.1 to 10.2.2.14
+  + Let's take a Three-Tier Architecture which includes:
+    - Public LB Tier
+    - Private App Tier
+    - Private DB Tier
+  + Each tier should have Internet Access, High Availability, Fault Tolerance along with Isolation & Security
+  + In such a case, you will end up with potentially 9 unique subnets, 3 for each tier and each tier replicated across 3 AZs
+  + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 16 subnets by using /21:
+    - 10.2.0.0/21 can have a maximum of 2^11 - 2 = 2044 Hosts in the Subnet
+      Network IP: 10.2.0.0
+      Broadcast IP: 10.2.7.255
+      Usable IP Addresses: 10.2.0.1 to 10.2.7.254
+    - 10.2.8.0/21 can have a maximum of 2^11 - 2 = 2044 Hosts in the Subnet
+      Network IP: 10.2.8.0
+      Broadcast IP: 10.2.15.255
+      Usable IP Addresses: 10.2.8.1 to 10.2.15.254    
+    - 10.2.16.0/21 can have a maximum of 2^11 - 2 = 2044 Hosts in the Subnet
+      Network IP: 10.2.16.0
+      Broadcast IP: 10.2.23.255
+      Usable IP Addresses: 10.2.16.1 to 10.2.23.254
+    - 10.2.24.0/21 can have a maximum of 2^11 - 2 = 2044 Hosts in the Subnet
+      Network IP: 10.2.24.0
+      Broadcast IP: 10.2.31.255
+      Usable IP Addresses: 10.2.24.1 to 10.2.31.254
+    - ...plus 12 more subnets like this
+  + Subnets enable
+    - Security via Isolation
+    - Because subnets allow us to use multiple AZ, it enables High-Availability
+    - Fault Tolerance
+    - Performance
+
 ## References
 
 **Additional AWS Services**
