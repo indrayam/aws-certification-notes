@@ -21,6 +21,7 @@
 
 - VPC
 - 1 Region, 3 AZs
+- "N" Subnets (Public/Private) with RouteTable, Internet Gateway, NAT Gateway, Security Groups and NACL
 - Route53
 - CloudFront
 - AWS Certificate Manager
