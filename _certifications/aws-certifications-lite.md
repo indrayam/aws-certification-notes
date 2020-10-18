@@ -16,6 +16,30 @@
 13. RDS, Aurora
 14. DynamoDB
 
-## Create Example AWS Architecture (Console, CloudFormation and/or Terraform)
+## Hands-On with AWS
 ![AWS Example Architecture](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture.jpg)
+
+- VPC
+- 1 Region, 3 AZs
+- Route53
+- CloudFront
+- AWS Certificate Manager
+- S3
+- ELB (ALB) tier
+- EC2 running Microservices (Web App, Facade API, Data API)
+  + Ubuntu 20.04 AMI
+  + EBS
+  + ASG
+- Lambda
+- RDS (Aurora)
+- Glacier
+- DynamoDB
+- SQS
+- CloudWatch (Monitoring, Logs, Alarms)
+
+### Console
+
+### CloudFormation
+
+### Terraform
 
