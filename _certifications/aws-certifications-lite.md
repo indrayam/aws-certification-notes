@@ -15,6 +15,8 @@
 12. Lambda
 13. RDS, Aurora
 14. DynamoDB
+15. Glacier
+16. Redshift
 
 ## Hands-On with AWS
 ![AWS Example Architecture](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture.jpg)

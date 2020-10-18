@@ -29,6 +29,7 @@
 - [AWS Certified Developer Official Study Guide, Associate Exam **Sep 2019**](https://learning.oreilly.com/library/view/aws-certified-developer/9781119508199/)
 
 ### VoD
+- AWS in Motion (Manning)
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard)
 - [acloud.guru: AWS Certification Preparation Guide](https://learn.acloud.guru/course/aws-certification-preparation/dashboard)
 - [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)

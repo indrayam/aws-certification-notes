@@ -456,6 +456,36 @@
     - Attributes (Fields, Columns)
     - No joins or relationships. Translation: No foreign keys
     - Schema-less
+    - Unique primary key required
+    - Secondary indexes allowed
+    - No table size limit
+    - 400kb item size limit
+    - Item-level TTL
+  - Use cases
+    - Operational State/History
+    - Session/State Storage
+    - Shopping Carts
+    - Gaming Leaderboards
+    - Ad impressions/clicks
+- Glacier
+  - Archival Storage
+  - Lower cost vs S3 or EBS
+  - Write archives
+    + Transition to S3
+    + Directly upload to S3
+  - Download via retrieval request
+    + 3-5 hr wait
+    + $ for faster retrieval
+  - Lifecycle Rules: Transition from S3 to Glacier using Lifecycle rules automatically
+    - For example: After 30 days, archive to Glacier. After 2600 days (7 yrs), permanently delete
+- Redshift
+  - Petabyte scale data warehouse
+  - Fully managed like RDS
+  - Fork of Postgres 8.0.2
+  - SQL compliant as of 8.0.2
+  - Connect with JDBC/ODBC
+  - Parallel Queries (Columnar Storage?)
+  - Ideal of OLAP and BI apps
 
 
 
