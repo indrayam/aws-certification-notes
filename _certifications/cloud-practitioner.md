@@ -1,4 +1,4 @@
-# AWS Certified Cloud Practitioner (CCP) 2020: My Notes
+# AWS Certified Cloud Practitioner (CCP) 2020
 
 ## AWS CCP Home
 [AWS CCP 2020](https://aws.amazon.com/certification/certified-cloud-practitioner/)
@@ -79,7 +79,7 @@
   + Artifacts: Compliance Reports/Documents
 - Management Tools
   + Cloud Formation: Turn your infrastructure provisioning effort from imperative scripts to declarative scripts. Infra as Code.
-  + Cloud Watch: Monitor performance of things like EC2 (Disk Utilization, RAM Utilization etc.)
+  + CloudWatch: Monitor performance of things like EC2 (Disk Utilization, RAM Utilization etc.)
   + Cloud Trail: Auditing changes to your AWS environment
   + Opsworks: Chef based Config Management
   + Config: Audit + setup alerts
@@ -88,7 +88,6 @@
 - Desktop & App Streaming
   + Workspaces: Think VDI
   + AppStream 2.0: Streaming desktop apps to your users
-
 
 ## Notes
 - Cloud Computing
@@ -184,7 +183,7 @@
   + Each tier should have Internet Access, High Availability, Fault Tolerance along with Isolation & Security
   + In such a case, you will end up with potentially 9 unique subnets, 3 for each tier and each tier replicated across 3 AZs
   + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 16 subnets by using /21:
-    - 10.2.0.0/21 can have a maximum of 2^11 - 2 = 2044 Hosts in the Subnet
+    - 10.2.0.0/21 can have a maximum of 2^11 - 2 = 2046 Hosts in the Subnet
       Network IP: 10.2.0.0
       Broadcast IP: 10.2.7.255
       Usable IP Addresses: 10.2.0.1 to 10.2.7.254
@@ -205,7 +204,169 @@
     - Security via Isolation
     - Because subnets allow us to use multiple AZ, it enables High-Availability
     - Fault Tolerance
-    - Performance
+    - Performance: In order to achieve the lowest latency and best packet per sec performance, all of the machines would need to be in the same subnet in the same AZ. So, sometimes, you may have to compromise on HA for sake of Performance or vice versa
++ Routing & Firewalls
+  - In any given VPC, the way traffic flows from it to anywhere else is by way of Routing. In other words, routing is the first line of defense. A firewall of sorts. Why? Because without a route, packets are just not going to flow anywhere. We can whitelist IPs to define where traffic is allowed to flow.
+  - If you want hosts in a subnet inside a VPC to talk to the internet, first you create and attach an Internet Gateway (igw-1) to the VPC
+  - Then create a Route Table with a definition like the following:
+    10.2.0.0/16 => local
+    0.0.0.0/0   => igw-1
+  - Once you have created a Route Table, you attach the Route Table to the Subnet. By doing this, you enable bi-directional communication to and from the Internet. By doing this, you have technically made the Subnet a "public" subnet. Basically, a subnet is "public" if it has to and from Internet access
+  - Network Access Control Lists are firewalls of the subnet as a whole. 
+  - Security Groups are firewalls at the individual machine level inside a subnet. Once you define Security Groups and add machines to it, "allow" rules can be created referencing the Security Groups, not the individual VMs per se
+  - By default, security groups have an implicit "Deny All" rule. All your rules are really for allowing traffic on ports "explicitly"
+- Route53
+  + Amazon Route 53 is Amazon's globally distributed DNS service and leverages those 200 odd edge locations. 
+  + We can register domains since it is also a Registrar
+  + We can use AWS as stable, reliable and fast nameservers, thanks to the edge locations again
+  + It supports Public and Private DNS zones
+  + Automated via API
+  + Supports Health Checks
+  + Routing Methods
+    - Latency based Routing
+    - Geographic Routing
+    - Failover Routing, when used in conjunction with Health Checks
+    - Weighted Sets
+- AWS Hardware VPN
+  - Hardware enabled IPSEC encrypted VPN tunnel
+  - On the Amazon side, that tunnel is powered by two physically distinct routers in two distinct facilities
+  - On the customer side, it should me made HA too by running 2 routers on their side
+  - VPN connectivity is really great for admin work, for low bandwidth type of transfer
+- Amazon Direct Connect
+  - If there is more data to be pumped between AWS VPCs and Customer premise, Amazon Direct Connect might be better
+  - Customer works with a AWS Direct Connect Provider and can setup a 1 or 10 GBPS fiber connection to the Provider
+  - DX Providers already have connections to AWS
+  - This is definitely prefered if you need lots of bandwidth to flow between your premise and AWS
+- EC2 (Elastic Cloud Compute)
+  - VMs
+  - Linux or Windows
+  - Xen or Nitro hypervisor
+  - Bare Metal is available
+  - Fixed Prices based on CPU, IO, Disk and Memory
+  - Default limit is 20 per account
+  - Different Billing Models
+    + On-demand
+    + Spot Instances
+    + Reserved Instances
+  - Hourly fees includes license cost of operating system
+  - Rack, Chassis => Intel Xeon (CPU)/Motherboard => Hypervisor (Xen or Nitro) => EC2 Instances (VM)
+  - There may be that more than one tenant on a single host
+  - However, a single customer could get dedicated host
+  - AMI - Amazon Machine Images
+- EC2 Best Practices
+  - Treat them as disposable
+  - "Immutable Infrastructure"
+  - Logs as Streams
+  - Leverage Roles that allows us to control access to other AWS services
+  - Automate Deployments
+  - Monitor with CloudWatch
+  - Enable scaling and self-healing with Auto Scaling
+- EBS (Elastic Block Store)
+  - Increase data durability of an EC2 instance
+  - Used when we need higher degree of Random IO
+  - Used when we need a mounted filesystem
+  - Efficient protocol
+  - Can be attached or detached to an EC2 in the same AZ
+  - You can create snapshots from an EBS volume which is saved in S3
+  - You can copy the snapshot to a different AZ and restore an EBS volume from that
+- ELB (Elastic Load Balancing)
+  - Distributes requests/traffic 
+  - Spans Region, uses every AZ
+  - Managed Service which is inherently secure, resilient and scalable
+  - Health Check support
+  - Integrates with Auto Scaling
+  - Integrates with Route53
+  - Offloads SSL, Customize Security Policy
+  - 3 types of ELB:
+    + Classic: Setup Ports to listen on, Register EC2 instance(s) and define which Port on the EC2 instance(s) to forward traffic to
+    + Application Load Balancer: Setup Ports to listen on, Create Target Groups and then use Layer7 content filtering rules to route traffic ('/abc') to a specific Target Group. Allows Dynamic Port mapping so that one EC2 instance can receive traffic on different ports. Not possible with Classic LB.
+    + Network Load Balancer: Setup Ports to listen on, Create Target Groups and then forward traffic to Ports on the Target Group. Why? Since NLB is a Layer3 Load Balancer. Handles very long running connections (for months) to backend Targets.
+- S3 (Simple Storage Service)
+  - Object Storage
+  - Distributed K/V store
+  - Buckets and Objects
+  - Cluster spans Region
+  - Durable to loss ot 2 AZs
+  - Server side Encryption (AES256)
+- S3 Use Cases
+  - Static HTML
+  - CSS, JavaScript
+  - Images
+  - Audio/Video files
+  - PDF, eBooks
+  - Software Downloads
+  - Log Collection
+  - Backups (EBS Snapshots)
+  - Data Lakes
+- CloudWatch
+  - Why?
+    + Intrumentation is key in Cloud
+    + Are we over or under provisioned?
+    + What is current demand/load?
+    + Where are the bottlenecks - CPU, IO, etc?
+    + Are any resources idle?
+  - CloudWatch Monitoring
+    + Collects Metrics
+    + Stores Metrics for 2 Weeks
+    + Accessible via API
+    + Unique Metrics Set per Service
+    + Custom Metrics ($/metric)
+  - CloudWatch Logs
+    - Collect logs by streaming
+    - Search and filter using specific syntax
+      + Create Metric Filters
+        - Number of 404s
+        - Bytes transfered 
+        - Number of Exceptions
+    - Configure an agent on EC2 instance to watch file(s)
+    - Any appending events can be streamed
+    - Collect Route53 DNS queries
+    - Default retention indefinite
+    - Can archive to Amazon S3
+    - Stream to Amazon ElasticSearch
+    - Process with Lambda  
+  - Usage Examples
+    - EC2 Metrics
+      + Default 5 min interval
+      + Detailed 1 min interval ($/instance)
+      + Reported by Hypervisor
+    - ELB Metrics
+      + Default 1 min interval
+      + Requests per min, Healthy Hosts, etc.
+    - DynamoDB
+      + Read/Write throughput, etc.
+  - CloudWatch Alarms
+    - Triggered based on breach of some threshold
+    - Does not signal emergency
+- Auto Scaling
+  - Replace failed instances not just in the same AZ, but across AZs in a Region
+  - Change capacity according to load (read, demand)
+  - Maintain fixed size fleet
+  - Works hand-in-hand with CloudWatch
+  - Events
+    + SNS
+    + Lambda
+  - Usages
+    + Demand-based Auto Scaling
+    + Reliable Apps
+- CloudFront
+  - Create a "distribution" (web or streaming)
+  - Connect the distribution to one or more "origins"
+  - Configure the "behaviors" of the "distribution" by configuring it 
+    + To connect to the right origin (say, S3) if the request matches "/assets/*"
+    + To connect to ELB and the Target Groups behind it for everything else ("/*")
+  - Caches content at Edge Location
+  - Supports static and dynamic content
+  - You can customize the cache behavior
+    + Set default TTL for static content
+    + Set no TTL for dynamic content
+  - Caching behavior can be changed on a per response basis
+  - Custom DNS
+  - Custom SSL
+  - RTMP and HLS streaming
+- Lambda
+
+
 
 ## References
 

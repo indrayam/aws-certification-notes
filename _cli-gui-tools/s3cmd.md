@@ -59,4 +59,3 @@ s3cmd --acl-public setacl s3://demo/cd-console.png
 # Fetch the file
 curl -L -O "https://alln-cloud-storage-1.cisco.com/cd_code:demo/cd-console.png"
 ```
-
