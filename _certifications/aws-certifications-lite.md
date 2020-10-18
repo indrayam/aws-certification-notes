@@ -19,7 +19,7 @@
 16. Redshift
 
 ## Hands-On with AWS
-![AWS Example Architecture](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture.jpg)
+![AWS Example Architecture](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v2.jpg)
 
 - VPC
 - 1 Region, 3 AZs
