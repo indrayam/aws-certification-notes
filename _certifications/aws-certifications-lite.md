@@ -1,6 +1,6 @@
-# AWS Certified Cloud Practitioner (CCP) 2020 (Lite)
+# AWS Certifications - Lite
 
-## Services
+## AWS Certified Cloud Practitioner (CCP) 2020
 1. AWS Global Infra: Regions, AZs
 2. Core Networking: VPC, Subnets, Route Table, Security Groups, NACL, Internet Gateway, NAT Gateway
 3. Advanced Networking: Direct Connect, Hardware VPN
@@ -13,4 +13,9 @@
 10. Auto Scaling Groups
 11. CloudFront, Distribution, Origins
 12. Lambda
+13. RDS, Aurora
+14. DynamoDB
+
+## Create Example AWS Architecture (Console, CloudFormation and/or Terraform)
+![AWS Example Architecture](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture.jpg)
 

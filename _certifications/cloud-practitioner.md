@@ -365,6 +365,97 @@
   - Custom SSL
   - RTMP and HLS streaming
 - Lambda
+  - Serverless App Infrastructure
+  - Use cases
+    + Scheduled Tasks
+    + Event Handlers
+  - Pay for compute time per 100ms
+  - Create functions
+    + Online Editor
+    + Upload Zip
+  - Invoke functions
+    + CLI or SDK
+    + Events
+    + Cron-style schedule
+  - AWS Handles
+    + Infrastructure
+    + Deployment to necessary compute systems
+    + Scaling
+  - We specify
+    + Runtime (Python, etc.)
+    + Memory limit
+    + Execution timeout
+- RDS
+  - Choice of
+    + MySQL
+    + SQL Server
+    + Oracle
+    + PostgreSQL
+    + MariaDB
+    + Amazon Aurora
+  - Reduced Operational Burden
+  - Team can focus on App (SQL Queries)
+  - Benefits
+    + Read Replicas
+    + Automated
+      - OS & DB Installation
+      - OS Patches
+      - DB Engine Minor Updates
+      - Backups
+      - Failover
+  - Multi-AZ deployment
+    - HA
+    - Physically distinct servers
+    - Automatic failover
+      + Loss of Network
+      + Compute failure
+      + Storage failure
+    - Production Best Practice
+  - Backups
+    - Performed once per day
+    - You control backup window
+    - Retained up to 35 days
+    - Point-in-time restore
+    - All backups are deleted along with deletion of RDS instance
+  - Backups: Manual Snapshot
+    - Performed at any time
+    - Can copy to other regions
+    - Retained indefinitely
+  - Aurora
+    - Compatible with
+      + MySQL 5.6
+      + Postgres 9.6
+    - 3-5x performance increase
+    - Storage up to 64TB
+      + Auto-scaled
+      + 6 copies across 3 AZs
+    - Up to 15 Read Replicas
+    - Aurora Multi-Master
+    - Aurora Serverless
+  - DB Migration
+    - Dump and import
+    - Backup/Restore
+    - AWS DB Migration Service
+      + Supports widely used DBs
+      + Schema Conversion tool
+      + Consolidate DBs
+      + Heterogenous/Homegenous DBs
+      + Continuous replication
+- DynamoDB
+  - NoSQL data store
+  - Backed by SSD
+  - Single-digit ms response
+  - Built-in security, resilience
+  - Replicated across numerous AZs in the Region
+  - No limits to storage or throughput
+  - Provisioned throughput (reads/sec or writes/sec)
+  - Can auto-scale
+  - Basics
+    - Tables (Collections, Tables)
+    - Items (Documents, Rows)
+    - Attributes (Fields, Columns)
+    - No joins or relationships. Translation: No foreign keys
+    - Schema-less
 
 
 
