@@ -18,23 +18,18 @@
 - [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
 
 ### Books
-- AWS The Good Parts
-- AWS Security
 - AWS in a Month of Lunches
+- AWS Security
 - AWS in Action 2nd Ed
-- [The Definitive Guide to AWS Application Integration: With Amazon SQS, SNS, SWF and Step Functions](https://learning.oreilly.com/library/view/the-definitive-guide/9781484254011/)
-- [Ben Piper & David Clinton: AWS Certified Cloud Practitioner Study Guide **July 2019**](https://learning.oreilly.com/library/view/aws-certified-cloud/9781119490708/)
-- [AWS Certified Solutions Architect Official Study Guide **Oct 2016**](https://learning.oreilly.com/library/view/aws-certified-solutions/9781119138556/)
-- [AWS Certified Solutions Architect Practice Tests **Mar 2019**](https://learning.oreilly.com/library/view/aws-certified-solutions/9781119558439/)
-- [AWS Certified Developer Official Study Guide, Associate Exam **Sep 2019**](https://learning.oreilly.com/library/view/aws-certified-developer/9781119508199/)
+- AWS The Good Parts
+- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
+- AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
+- AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
+- AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
 
 ### VoD
 - AWS in Motion (Manning)
-- [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard)
-- [acloud.guru: AWS Certification Preparation Guide](https://learn.acloud.guru/course/aws-certification-preparation/dashboard)
 - [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
-- [AWS Training](https://www.aws.training/)
-- [edX AWS Courses](https://courses.edx.org/dashboard)
 
 ## AWS Certified Cloud Practitioner
 - [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard)

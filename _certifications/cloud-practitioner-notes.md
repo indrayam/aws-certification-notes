@@ -1,4 +1,4 @@
-# AWS Certified Cloud Practitioner (CCP) 2020
+# AWS Certified Cloud Practitioner (CCP) 2020 Notes
 
 ## AWS CCP Home
 [AWS CCP 2020](https://aws.amazon.com/certification/certified-cloud-practitioner/)
@@ -486,7 +486,289 @@
   - Connect with JDBC/ODBC
   - Parallel Queries (Columnar Storage?)
   - Ideal of OLAP and BI apps
-
+- Importance of Automation
+  - Challenges of Manual Process
+    + Slow
+    + Unreliable
+    + Difficult to repeat
+    + Lack of documentation/versioning of steps
+    + Less secure
+  - Benefits of Automation
+    + Fast and efficient deployments
+    + Reliable and consistent
+    + Repeatable
+    + Documentation/versioning is inherent
+    + Secure!
+  - Tools
+    + AWS
+      - AWS CLI
+      - AWS SDKs
+      - AWS CloudFormation
+      - AWS Elastic Beanstalk
+      - AWS OpsWorks
+    + Third Party
+      - Terraform
+      - Ansible
+- Elastic Beanstalk (think, PaaS like Heroku or Cloud Foundry)
+  - App management platform
+  - Provides easy entry
+  - Choice of Java, .NET, Nodejs, Docker
+  - Simply upload our application
+  - Ideal for developers
+  - Automatically handles
+    + Capacity provisioning
+    + Load balancing
+    + Auto scaling
+    + Monitoring
+    + Deployment (Rollback, Blue/Green)
+- CloudFormation
+  - Template-based infrastructure management
+  - Declarative programming. Order of operations is handled by AWS
+  - Offers access to full breadth of AWS
+  - Infra as Code (stored in Git)
+  - Write it once, deploy many time
+  - Library for common architectures
+  - No imposed model
+- WAF
+  - Layer7 Content filtering
+  - Support rules to block/allow/count mode
+  - Integrates with CloudFront
+  - Protects against
+    + SQL Injection
+    + Cross-site scripting
+  - Block based on
+    + IP addresses
+    + HTTP Headers/Body
+    + URI Strings
+  - Rate Limiting per IP
+  - Managed Rules for Common Threats (OWASP: Open Web App Security Project)
+- Shield
+  - DDoS protection service
+  - Available for free to everyone using CloudFront or ELB
+  - Standard version gives us...
+    + UDP Reflection 
+    + SYN floods
+    + SSL renegotiation
+    + Slow loris attacks
+  - Advanced version gives us...
+    + Near real-time visibility
+    + Integrates with WAF
+    + Access to DDoS team
+- Shared Responsibility Model
+  - AWS is responsible for the Security OF the Cloud
+    + Physical Security
+      - Facilities/Data Centers
+      - Edge Locations
+      - Rack and Chassis
+    + Hypervisor (Xen or Nitro)
+    + Network Security
+    + Storage
+    + APIs
+    + Managed Services
+      - Databases
+      - ...
+  - Customers is responsible for the Security IN the Cloud
+    + Security of the Operating Systems we run
+    + Network & Firewall configurations
+    + Identity and Access
+      - Credentials
+      - Permissions using Least Privilege model
+    + Security of our Applications
+    + Security of our Data
+      - S3 Buckets, if not configured correctly, can expose sensitive data
+    + Encryption
+      - At rest
+      - In transit
+- IAM
+  - Authentication
+  - Authorization via Policies
+  - Users
+  - Groups
+  - Password Policy
+  - MFA
+- Users
+  - Are created within IAM service
+  - Allows them to login to Console
+  - Can have long-term access keys
+  - Enable per use MFA device
+- Groups
+  - Groups of users
+  - Cannot be nested
+- Credential Types
+  - Master (root) Account: Email address + Password
+  - IAM Users: Username + Password
+  - API Access (CLI, SDK): Access Key ID + Secret Key
+- Policies
+  - Authorization achieved through policies
+  - Written in JSON
+  - Policy Types
+    + Managed Policy (First class objects)
+      - AWS Managed
+      - Customer Managed
+    + Inline Policy (Written inline for a group of users or roles)
+      - Not first class objects
+  - Create Policies via
+    + Generator
+    + Hand written (not recommended)
+  - Evaluation logic of a policy
+    + Defaults to Implicitly DENY
+    + Looks through all the policies...
+      - Look for explicit DENY
+      - Look for explicit ALLOW
+- Roles
+  - What Not to Do
+    + Never embed secrets in Code
+    + Never embed secrets in Environment variables
+    + Logistical issue with embedding secrets in code anyways..
+    + Never share secrets with
+      - Third parties
+      - Hundreds of Enterprise users
+      - Millions of web users (by embedding in a mobile app or web app)
+  - The way to avoid all that is through Roles. How?
+    + Gives access to automatically rotated temporary credentials (in as little as 15 mins)
+    + Roles can be used to delegate permission to 
+      - EC2 instance
+      - AWS Service in order for that service to perform action on our behalf
+      - A user (temporarily elevate privileges)
+      - Separate account 
+        + One of our own
+        + Vendor or client
+- AWS New Account First Steps
+  + Enable CloudTrail
+  + Create an IAM User with Admin privileges
+  + Enable MFA on root account
+  + Enable Cost and Usage Report
+  + Log out of the root account
+  + Log in as Admin user
+  + Create additional users, groups, etc.
+- IAM Best Practices
+  + Root credentials
+    - Email address + password
+    - Protect at all costs
+    - Do not use for day-to-day
+    - Enable MFA
+  + Rotate Access Keys
+  + Follow principle of Least privilege
+  + Monitor with CloudTrail
+- AWS Organizations
+  + Manage multiple AWS Accounts
+  + Automate creation of AWS Accounts
+  + Service Control Policies control service use
+  + Consolidated Billing
+    - One billing, many accounts
+    - Aggregated volume pricing
+    - Reserved instances can be used by all accounts!
+  + Detailed Billing
+    - Published to S3 bucket
+    - Import into spreadsheet
+    - Filter/Sort by service, tag, etc. 
+- AWS Assurance (read, Compliance) Programs
+  + Certifications/Attestations 
+    - Third-party independent auditor
+  + Laws/Regulation/Privacy
+  + Alignments/Frameworks
+  + Global Assurance Programs
+    - Cloud Security Alliance
+    - ISO 9001
+    - ISO 27001
+    - ISO 27017
+    - ISO 27018
+    - PCI DSS Level 1
+    - SOC 1
+    - SOC 2
+    - SOC 3
+  + US Assurance Programs
+    - FedRAMP
+    - FIPS
+    - FISMA
+    - HIPAA
+    - ITAR
+    - MPAA
+    - NIST 800-53
+  + HIPAA Compliance
+    - HIPAA => Health Insurance Portability and Accountability Act
+    - Designed to secure Protected Health Information (PHI)
+    - AWS not "directly" certified
+    - Requirements map to FedRAMP and NIST 800-53 which are more stringent than HIPAA
+    - AWS provides Business Associate Addendum
+  + PCI DSS Compliance
+    - PCI DSS => Payment Card Industry Data Security Standard)
+    - Designed to protect
+      + Cardholder Data (CHD)
+      + Sensitive authentication Data (SAD)
+    - Applies to business that store/process/transmit such data
+    - AWS is PCI DSS 3.2 Level 1 compliant
+    - Customers are responsible for Card Data Environment (CDE)
+    - AWS provides Attestation of Compliance (AOC)
+  + Achieving Compliance
+    - Customer works towards compliance
+    - AWS provides necessary documentation
+    - Know who is responsible
+      + AWS for physical controls
+      + Customer for logical controls
+    - Know the controls you inherit
+    - Know the services in scope
+    - Speak with your Account Manager
+  + Key AWS Services for Auditing & Compliance
+    - AWS Config
+    - AWS Service Catalog
+    - AWS Artifact
+    - AWS CloudTrail
+- AWS Config
+  + Resource Inventory
+  + Configuration History
+  + Change notifications
+  + Use pre-made or custom rules to determine compliance against rules
+  + Enables
+    - Compliance auditing
+    - Security Analysis
+    - Change tracking
+    - Ops troubleshooting
+- AWS Service Catalog
+  + Manage catalog of approved IT services
+  + Achieve consistent governance
+  + Customer defines
+    - Portfolios
+    - Products
+      + Defined as CloudFormation templates
+- AWS Artifact
+  + Access reports/details of 
+    - ~2500 security controls
+    - On-demand access to AWS security and compliance documents
+    - Demonstrate security and compliance of your AWS environments
+    - Example: SOC and PCI reports
+- CloudTrail + IAM Access Analyzer
+  + Records all calls made to AWS APIs
+  + Turn it on either for a single region or all regions. As part of that, you configure S3 bucket
+  + Delivers log files to S3 bucket
+  + Includes
+    - Identity
+    - Source IP
+    - Request/Response details
+  + Does not record the following. For these, you could use CloudWatch.
+    - Operating system logs
+    - Database queries
+    - App logs
+- AWS KMS
+  + Managed Service
+  + Create/Manage encryption keys
+  + Integrates with services that offer encryption services
+    - S3
+    - EBS
+    - RDS
+    - Glacier
+    - SQS
+  + Multi-tenant software backed by HSMs
+- AWS CloudHSM
+  + If we want a dedicated/singleton enviornment for keys...
+  + Single-tenant Hardware Security Module
+  + FIPS 140-2 Level 3 validated
+  + On-demand, no upfront costs
+  + Can enable:
+    - SSL offloading
+    - Private key storage
+    - Transparent data encryption
+    
 
 
 ## References
