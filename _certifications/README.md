@@ -1,4 +1,4 @@
-# AWS Certifications Notes
+# AWS Certifications
 
 ## AWS Certifications
 - AWS Certified Cloud Practitioner
