@@ -12,7 +12,7 @@
 - AWS Security (Manning - EAP)
 - AWS in Action 2nd Ed (Manning)
 - AWS The Good Parts (Gumroad)
-- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
+- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton) 🚧
 - AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
 - AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
 - AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
@@ -34,7 +34,7 @@
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [Richard Jones: AWS Certified Cloud Practitioner, 1/e **May 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135940037/?autoplay=false) ✅
 - [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard) 🚧
-- [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/) 🚧
+- [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
 ## AWS Certified Solutions Architect - Associate
