@@ -23,6 +23,7 @@
 20. Shield
 21. IAM, Users, Groups, Roles, Identity Policy, Resource Policy, Organizations
 22. AWS KMS, AWS CloudHSM
+23. CloudTrail
 
 ## Hands-On with AWS
 ![AWS Example Architecture v1](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v1.jpg)
