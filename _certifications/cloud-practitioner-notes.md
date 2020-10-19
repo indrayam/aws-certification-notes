@@ -743,7 +743,6 @@
   - AWS CloudTrail
 
 ## AWS Config
-- Think Cisco Security Buddy + Cisco CMDB
 - Resource Inventory
 - Configuration History
 - Change notifications
@@ -755,13 +754,12 @@
   - Ops troubleshooting
 
 ## AWS Service Catalog
-- AWS Service Catalog
-  + Manage catalog of approved IT services
-  + Achieve consistent governance
-  + Customer defines
-    - Portfolios
-    - Products
-      + Defined as CloudFormation templates
+- Manage catalog of approved IT services
+- Achieve consistent governance
+- Customer defines
+  - Portfolios
+  - Products
+    + Defined as CloudFormation templates
 
 ## AWS Artifact
 + Access reports/details of 
@@ -921,11 +919,77 @@
     - Infrequent (Cheaper, but on-demand)
     - Glacier (Cheapest, not on-demand)
 
+## AWS Cost Management
+- AWS Calculators
+  - AWS Simple Monthly Calculator https://calculator.s3.amazonaws.com/index.html
+  - AWS TCO Calculator is now AWS Pricing Calculator: https://calculator.aws
+- AWS Cost Explorer
+  - Visualizing our current costs in AWS
+- AWS Cost and Usage Reports
+  - Access highly detailed billing information
+  - Written as a CSV file and saved to S3 bucket. Even if multiple accounts are involved
+  - Ingested into Redshift or QuickSight
+  - Usage for each service
+  - Usage for each tag
+  - Can aggregate to daily or monthly
+- AWS Trusted Advisor
+  - Automatically and regularly analyze our environment
+  - Offers best practice recommendations
+  - Cost optimization
+  - Room for improvement in Performance
+  - Room for improvement in Security (Think, Cisco Security Buddy)
+  - Room for improvement in Fault Tolerance
+  - 7 Core Checks
+    + S3 Bucket Permissions
+    + Security Groups (specific ports unrestricted)
+    + IAM Use
+    + MFA in root account
+    + EBS Public Snapshots
+    + RDS Public Snapshots
+    + Service Limits
+  - Notifications and Programmatic Access are not available until you have higher degree of Amazon Support
+
+## AWS Support
+- AWS Support Plans
+  - Basic
+  - Developer
+  - Business
+  - Enterprise
+- Basic Support
+  - Core Trusted Advisor Checks
+  - No technical support
+  - Can submit
+    + Bugs
+    + Feature Requests
+    + Service Limit Increases
+- Developer Support
+  - Core Trusted Advisor Checks
+  - Business Hours access to Cloud Support Associates 
+  - Guidance < 24 business hours
+  - Impairments < 12 business hours
+  - Only offers "General" guidance
+- Business Support Plans
+  - Full set of Trusted Advisor checks
+  - 24/7 access to Cloud Support Engineers
+  - Email, chat, phone
+  - 1-24 hour response
+  - Offers contextual guidance based on use-case
+  - On a per account basis
+- Enterprise Support 
+  - Full set of Trusted Advisor checks
+  - 24/7 access to Cloud Support Engineers
+  - Email, chat, phone
+  - 15min to 24 hour response
+  - Offers consultative review of our architecture
+  - Applies to all accounts
+  - Access to a Well-Architected Review
+  - Access to online labs
+  - Dedicated Technical Account Manager
 
 
-## References
-
-**Additional AWS Services**
+## Reference: Additional AWS Services
+- These are not questioned as part of Certified Cloud Practitioner
+- That said, I will need to deep-dive into them for all my Associate Certs
 - Developer Tools
   + CodeCommit: Think GitHub (Git portion)
   + CodeBuild: Run Compilation/CI on your code
