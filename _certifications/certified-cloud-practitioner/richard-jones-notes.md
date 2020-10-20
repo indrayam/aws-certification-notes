@@ -2,8 +2,8 @@
 
 ## AWS Services - Overview
 - AWS Global Infrastructure
-  + 24 Regions (3 more coming)
-  + 77 Availability Zones
+  + 24 Regions (3 more coming == 27)
+  + 77 Availability Zones (~9 more AZs == 86)
   + 217 PoP (205 Edge; 12 Regional Caches)
 - Networking & Content Delivery
   + VPC (Virtual Private Cloud)
