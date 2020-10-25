@@ -126,7 +126,7 @@ Diving deep into AWS services involves:
   - Terraform
 - Going through common use-cases involving the Service
 
-### Part 0: Best-Practice/Cost Optimization Enablers
+## Part 0: Best-Practice/Cost Optimization Enablers
 - [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
 - [AWS Pricing Calculator](https://calculator.aws/#/)
 - [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
@@ -136,7 +136,7 @@ Diving deep into AWS services involves:
 - [AWS Compliance](https://aws.amazon.com/compliance/)
 - AWS Trusted Advisor
 
-### Part 1: Building Modern Apps in AWS
+## Part 1: Building Modern Apps in AWS
 - 1. Identity & Access Management (IAM)
   + AWS Organizations
   + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key
@@ -199,7 +199,7 @@ Diving deep into AWS services involves:
   - 24. SES
   - 25. Kinesis
 
-### Part 2: DevSecOps
+## Part 2: DevSecOps
 + Ops
   - 1. CloudWatch (Monitoring, Logs, Alarms)
   - 2. AWS X-Ray
@@ -255,4 +255,6 @@ Diving deep into AWS services involves:
   + Read-Replicas
   + Check Multi-AZ setup
 - CloudFormation
+
+
 
