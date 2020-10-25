@@ -237,11 +237,11 @@ Diving deep into AWS services involves:
       + Allow users to create a basket of stocks. 
         - Support Symbol Look, which should make a live call and show latest information about the company
         - Support Add, Edit and Delete
-        - Fields to provide: Name, Stock Symbol, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase
+        - Fields to provide: Name, Email, Stock Symbol, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase
         - List View shows: Stock Symbol, Company Name, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase, Total Value Now, % Gain/Loss, Status
       + Adding and/or Editing is handled using synchronous API call
       + Deleting will trigger Worker via SQS. Worker will use SNS (or SES) to send email asking for confirmation
-      + User's selection of stocks as well as Audit trail is stored in DynamoDB
+      + User's selection of stocks as well as Audit trail is stored in Aurora Serverless (MySQL) and/or DynamoDB
       + List view is cached in ElastiCache, with Refresh functionality
     - Microservices: Web App (Fargate or EKS), Web API (Fargate or EKS, API Gateway), Worker (Lambda, API Gateway)
     - DynamoDB, ElastiCache (Redis)
