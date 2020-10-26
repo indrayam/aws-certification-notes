@@ -33,10 +33,10 @@
 - [acloud.guru: Introduction to Cloud Computing](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [Richard Jones: AWS Certified Cloud Practitioner, 1/e **May 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135940037/?autoplay=false) ✅
-- [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard) 🚧
+- [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard) ✅
 - AWS White Papers:
-  + Overview of AWS Services
-  + How AWS Pricing Works
+  + Overview of AWS Services 🚧
+  + How AWS Pricing Works 🚧
 
 **Optional:**
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
@@ -84,31 +84,6 @@
 - [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/)
 - [Chad Smith: AWS Network Certification GitHub Repo](https://github.com/arpcefxl/aws-network-certification)
 
-## AWS Certified Cloud Practitioner - AWS Services
-1. AWS Global Infra: Regions, AZs
-2. Core Networking: VPC, Subnets, Route Table, Security Groups, NACL, Internet Gateway, NAT Gateway, VPC Endpoints
-3. Advanced Networking: Direct Connect, Hardware VPN
-4. Route53
-5. EC2, AMI
-6. EBS
-7. ELB, Classic, ALB, NLB
-8. S3
-9. CloudWatch, CloudWatch Logs, CloudWatch Monitoring, CloudWatch Alarms
-10. Auto Scaling Groups
-11. CloudFront, Distribution, Origins
-12. Lambda
-13. RDS, Aurora
-14. DynamoDB
-15. Glacier
-16. Redshift
-17. Elastic Beanstalk
-18. CloudFormation
-19. WAF (Web App Firewall)
-20. Shield
-21. IAM, Users, Groups, Roles, Identity Policy, Resource Policy, Organizations
-22. AWS KMS, AWS CloudHSM
-23. CloudTrail
-
 ## Getting Hands-On with AWS
 ![AWS Example Architecture v1](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v1.jpg)
 
@@ -127,68 +102,74 @@ Diving deep into AWS services involves:
 - Going through common use-cases involving the Service
 
 ## Part 0: Best-Practice/Cost Optimization Enablers
-- [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
-- [AWS Pricing Calculator](https://calculator.aws/#/)
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
+- [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html) 🚧
+- [AWS Pricing Calculator](https://calculator.aws/#/) 🚧
+- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
   + [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
-- [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc)
-- [AWS Landing Zone](http://aws.amazon.com/answers/aws-landing-zone/)
-- [AWS Compliance](https://aws.amazon.com/compliance/)
-- AWS Trusted Advisor
+- [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc) 🚧
+- [AWS Landing Zone](http://aws.amazon.com/answers/aws-landing-zone/) 🚧
+- [AWS Compliance](https://aws.amazon.com/compliance/) 🚧
+- AWS Trusted Advisor 🚧
 
 ## Part 1: Building Modern Apps in AWS
 - 1. Identity & Access Management (IAM)
-  + AWS Organizations
-  + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key
-  + Groups
-  + Roles
-  + Permissions via Identity and Resource Policies
+  + AWS Organizations 🚧
+  + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key ✅
+  + Groups ✅
+  + Roles 🚧
+  + Permissions via Identity and Resource Policies 🚧
 - 2. Billing & Pricing
-  + AWS Budgets
-  + AWS Cost Explorer
-  + Resource Groups
-  + Tag Editor
+  + AWS Budgets 🚧
+  + AWS Cost Explorer 🚧
+  + Resource Groups 🚧
+  + Tag Editor 🚧
 + Network/Security
-  - 3. VPC
-    + 1 Region, 3 AZs
-    + "N" Subnets (Public/Private)
-    + Security Groups
-    + RouteTable
-    + Internet Gateway
+  - 3. VPC ✅
+    + 1 Region, 3 AZs ✅
+    + "N" Subnets (Public/Private) ✅
+    + Security Groups ✅
+    + RouteTable ✅
+    + Internet Gateway ✅
     + NAT Gateway
-    + NACL
+    + NACL ✅
     + VPC Endpoints
     + Elastic IP (EIP)
-  - 4. Route53
-  - 5. CloudFront
-  - 6. AWS Certificate Manager
+  - 4. Route53 ✅
+  - 5. CloudFront ✅
+  - 6. AWS Certificate Manager ✅
 + Compute: Virtual Machines
-  - 7. EC2
-    + Ubuntu 20.04 AMI
-    + Elastic Block Store (EBS)
-  - 8. Elastic Load Balancing (ELB)
-    - Application Load Balancing (ALB)
-    - Network Load Balancing (NLB)
-  - 9. Auto Scaling
-    - Launch Configs
-    - Auto Scaling Groups
+  - 7. EC2 ✅
+    + Ubuntu 20.04 AMI ✅
+    + Amazon Linux 2 AMI ✅
+    + Elastic Block Store (EBS) ✅
+  - 8. Elastic Load Balancing (ELB) 🚧
+    - Application Load Balancing (ALB) ✅
+      + Target Groups
+    - Network Load Balancing (NLB) 🚧
+  - 9. Auto Scaling ✅
+    - Launch Configs ✅
+    - Auto Scaling Groups ✅
 + Compute: PaaS, CaaS, FaaS 
   - 10. Elastic Container Service (ECS)
     - Elastic Container Registry (ECR)
   - 11. Fargate
   - 12. Elastic Kubernetes Service (EKS)
-  - 13. Lambda
+  - 13. Lambda 🚧
     - *Snowball Edge* 
   - 14. *Elastic Beanstalk*
 + Storage: Files
-  - 15. Simple Secure Storage (S3)
+  - 15. Simple Secure Storage (S3) ✅
     + Athena
   - 16. *Glacier*
     - *Glacier Deep Archive*
     - *Snowball*
     - *Storage Gateway*
 + Data
-  - 17. RDS (Aurora/MySQL, PostgreSQL, MySQL)
+  - 17. RDS
+    + Aurora/MySQL
+    + Aurora/Postgres
+    + Postgres
+    + MySQL 🚧
   - 18. DynamoDB
   - 19. ElastiCache (Redis)
   - 20. AWS ElasticSearch
@@ -201,22 +182,26 @@ Diving deep into AWS services involves:
 
 ## Part 2: DevSecOps
 + Ops
-  - 1. CloudWatch (Monitoring, Logs, Alarms)
-  - 2. AWS X-Ray
-  - 3. AWS Systems Manager
-  - 4. AWS Opsworks
+  - 1. CloudWatch
+    + Monitoring 🚧
+    + Logs
+    + Alarms
+  - 2. CloudFormation
+  - 3. AWS X-Ray
+  - 4. AWS Systems Manager
+  - 5. AWS Opsworks
 + CI/CD
-  - 5. CodeCommit
-  - 6. CodeBuild
-  - 7. CodeArtifact
-  - 8. CodePipeline
-  - 9. CodeDeploy
+  - 6. CodeCommit 🚧
+  - 7. CodeBuild 🚧
+  - 8. CodeArtifact
+  - 9. CodePipeline 🚧
+  - 10. CodeDeploy 🚧
 + Security
-  - 10. CloudTrail
-  = 11. AWS Config
-  - 12. AWS WAF
+  - 11. CloudTrail
+  = 12. AWS Config
+  - 13. AWS WAF
     + AWS Firewall Manager
-  - 13. AWS Shield
+  - 14. AWS Shield
     + Standard
     + Advanced
   - 14. AWS Inspector
@@ -256,5 +241,8 @@ Diving deep into AWS services involves:
   + Check Multi-AZ setup
 - CloudFormation
 
-
+## AWS CLI Tools
+- AWS CLI v2 for interacting with all your AWS resources: `aws` cli
+- AWS SAM CLI for Serverless Development: `sam`
+- AWS ECS CLI 2.0 for Containers based Development: `copilot`
 
