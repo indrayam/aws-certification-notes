@@ -2,7 +2,9 @@
 
 ## Mon Oct 26th, 2020
 - Take ACloudGuru's CCP Pratice Exam ✅
-- Practice using Wiley AWS Certified Cloud Practitioner Study Guide's Online Flash Cards
+- Read AWS Overview Paper notes (if any)
+- Read AWS Pricing Paper notes (if any)
+- Read aws.amazon.com/compliance/shared-responsibility-model/ and read "Shared Responsibility Model" notes (if any)
 
 ## Tues Oct 27th, 2020
 - Read AWS Overview Paper notes (if any)
