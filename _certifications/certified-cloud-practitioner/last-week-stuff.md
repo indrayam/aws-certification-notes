@@ -1,7 +1,7 @@
 # Last Week Prep for AWS Certified Cloud Practitioner 2020 
 
 ## Mon Oct 26th, 2020
-- Take ACloudGuru's CCP Pratice Exam
+- Take ACloudGuru's CCP Pratice Exam ✅
 - Practice using Wiley AWS Certified Cloud Practitioner Study Guide's Online Flash Cards
 
 ## Tues Oct 27th, 2020
