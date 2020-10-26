@@ -165,7 +165,7 @@ Diving deep into AWS services involves:
     - *Snowball*
     - *Storage Gateway*
 + Data
-  - 17. RDS
+  - 17. RDS 🚧
     + Aurora/MySQL
     + Aurora/Postgres
     + Postgres
@@ -179,35 +179,40 @@ Diving deep into AWS services involves:
   - 23. SNS
   - 24. SES
   - 25. Kinesis
-
-## Part 2: DevSecOps
-+ Ops
-  - 1. CloudWatch
++ Dev**Ops**
+  - 26. CloudWatch
     + Monitoring 🚧
     + Logs
     + Alarms
-  - 2. CloudFormation
-  - 3. AWS X-Ray
-  - 4. AWS Systems Manager
-  - 5. AWS Opsworks
-+ CI/CD
-  - 6. CodeCommit 🚧
-  - 7. CodeBuild 🚧
-  - 8. CodeArtifact
-  - 9. CodePipeline 🚧
-  - 10. CodeDeploy 🚧
+  - 27. CloudFormation
+  - Personal Health Dashboard
++ **Dev**Ops
+  - 28. CodeCommit 🚧
+  - 29. CodeBuild 🚧
+  - 30. CodeArtifact
+  - 31. CodePipeline 🚧
+  - 32. CodeDeploy 🚧
+
+## Part 2: SecOps
 + Security
-  - 11. CloudTrail
-  = 12. AWS Config
-  - 13. AWS WAF
+  - 1. CloudTrail
+  = 2. AWS Config
+  - 3. AWS WAF
     + AWS Firewall Manager
-  - 14. AWS Shield
+  - 4. AWS Shield
     + Standard
     + Advanced
-  - 14. AWS Inspector
+  - 4. AWS Inspector
     + Extremely EC2 specific
-  - 15. AWS Macie
-  - 16. AWS Key Management Service (KMS)
+  - 5. AWS Macie
+  - 6. AWS Key Management Service (KMS)
++ Ops
+  - 7. AWS X-Ray
+  - 8. AWS Systems Manager
+  - 9. AWS Opsworks
+
+## Part 3: AI
+1. AWS Rekognition
 
 ## Overall Deep-dive Use Cases
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
