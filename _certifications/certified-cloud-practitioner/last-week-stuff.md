@@ -2,9 +2,6 @@
 
 ## Mon Oct 26th, 2020
 - Take ACloudGuru's CCP Pratice Exam ✅
-- Read AWS Overview Paper notes (if any)
-- Read AWS Pricing Paper notes (if any)
-- Read aws.amazon.com/compliance/shared-responsibility-model/ and read "Shared Responsibility Model" notes (if any)
 
 ## Tues Oct 27th, 2020
 - Read AWS Overview Paper notes (if any)

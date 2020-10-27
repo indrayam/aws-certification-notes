@@ -81,7 +81,6 @@
   - 14. *Elastic Beanstalk*
 + Storage: Files
   - 15. Simple Secure Storage (S3) ✅
-    + Athena
   - 16. *Glacier*
     - *Glacier Deep Archive*
     - *Snowball*
@@ -96,24 +95,28 @@
   - 19. ElastiCache (Redis)
   - 20. AWS ElasticSearch
   - 21. *Redshift*
+    + 22. *Athena* (SQL on S3)
+    + 23. *Glue* (ETL tool)
+    + 24. *EMR* (Hadoop)
+    + 25. *QuickSight* (BI tool)
 + Event-based Apps
-  - 22. SQS
-  - 23. SNS
-  - 24. SES
-  - 25. Kinesis
+  - 26. SQS
+  - 27. SNS
+  - 28. SES
+  - 29. Kinesis
 + Dev**Ops**
-  - 26. CloudWatch
+  - 30. CloudWatch
     + Monitoring 🚧
     + Logs
     + Alarms
-  - 27. CloudFormation
-  - Personal Health Dashboard
+  - 31. CloudFormation
+  - 32. Personal Health Dashboard
 + **Dev**Ops
-  - 28. CodeCommit 🚧
-  - 29. CodeBuild 🚧
-  - 30. CodeArtifact
-  - 31. CodePipeline 🚧
-  - 32. CodeDeploy 🚧
+  - 33. CodeCommit 🚧
+  - 34. CodeBuild 🚧
+  - 35. CodeArtifact
+  - 36. CodePipeline 🚧
+  - 37. CodeDeploy 🚧
 
 ## Part 2: Diving into SecurityOps
 + Security
@@ -124,14 +127,14 @@
   - 4. AWS Shield
     + Standard
     + Advanced
-  - 4. AWS Inspector
+  - 5. AWS Inspector
     + Extremely EC2 specific
-  - 5. AWS Macie
-  - 6. AWS Key Management Service (KMS)
+  - 6. AWS Macie
+  - 7. AWS Key Management Service (KMS)
 + Ops
-  - 7. AWS X-Ray
-  - 8. AWS Systems Manager
-  - 9. AWS Opsworks
+  - 8. AWS X-Ray
+  - 9. AWS Systems Manager
+  - 10. AWS Opsworks
 
 ## Part 3: Software 2.0
 1. AWS Rekognition

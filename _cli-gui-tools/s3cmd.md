@@ -59,3 +59,11 @@ s3cmd --acl-public setacl s3://demo/cd-console.png
 # Fetch the file
 curl -L -O "https://alln-cloud-storage-1.cisco.com/cd_code:demo/cd-console.png"
 ```
+
+```bash
+# URL
+# https://alln-cloud-storage-1.cisco.com/cd_code:mega-menu/mega-menu.js
+# https://rtp1-cloud-storage-1.cisco.com/cd_code:mega-menu/mega-menu.js
+# https://rcdn-cloud-storage-1.cisco.com/cd_code:mega-menu/mega-menu.js
+# When you have it in all 3, you should use this URL
+# https://codes3.cisco.com/cd_code:mega-menu/mega-menu.js
