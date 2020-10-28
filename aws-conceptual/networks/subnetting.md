@@ -1,4 +1,4 @@
-# Computer Networking in AWS Notes
+# Subnetting Notes
 
 - Subnetting in AWS
   + Divide VPCs into Subnets
