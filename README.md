@@ -48,6 +48,8 @@
 - 6. Billing Dashboard for Cost Management
   + AWS Budgets 🚧
   + AWS Cost Explorer 🚧
+  + AWS Cost and Usage Reports
+  + Reserved Instance Reporting
   + Tag Editor 🚧
 + Network/Security
   - 7. VPC ✅
