@@ -1,5 +1,20 @@
 # AWS Nerd Notes
 
+# AWS Architecture
+
+## AWS Online Docs & References
+- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
+- [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
+- AWS Well Architected Tool
+- [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
+- [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
+- [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc)
+- [AWS Free Digital Training](https://www.aws.training/LearningLibrary?filters=language%3A1&filters=digital%3A1&tab=view_all)
+- [AWS Workshops](https://awsworkshop.io/)
+  + [AWS Security Workshops](https://awssecworkshops.com/)
+  + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
+- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
+
 ## AWS App Architecture Samples
 ![AWS Example Architecture v1](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v1.jpg)
 
@@ -7,21 +22,7 @@
 
 ![AWS Example Architecture v3](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v3.jpg)
 
-## AWS CLI Tools
-- AWS CLI v2 for interacting with all your AWS resources: `aws` cli
-  + [Source: AWS CLI v2 installation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html)
-  + `aws`
-- AWS SAM CLI for Serverless Development: `sam`
-  + `brew tap aws/tap` && `brew install aws-sam-cli`
-- AWS ECS CLI 2.0 for Containers based Development: `copilot`
-  + `brew install aws/tap/copilot-cli`
-- Open-source tool to interact with S3: `s3cmd`
-- `sls-dev-tools`
-- AWS CloudFormation Linter: [`cfn-lint`](https://github.com/aws-cloudformation/cfn-python-lint)
-  + `brew install cfn-lint`
-- Stelligent CloudFormation Security Linter: [`cfn-nag`](https://github.com/stelligent/cfn_nag)
-  + `gem install cfn-nag` OR
-  + `brew install ruby brew-gem` && `brew gem install cfn-nag`
+# AWS Services
 
 ## Part 0: Best-Practice/Cost Optimization Enablers
 - [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html) 🚧
@@ -29,11 +30,8 @@
 - [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc) 🚧
 - [AWS Compliance](https://aws.amazon.com/compliance/) 🚧
 - AWS Trusted Advisor 🚧
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
-  + [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
-- AWS Well Architected Tool
 
-## Part 1: Building Modern Apps in AWS
+## Part 1: Core AWS
 - AWS Identity & Access Management (IAM)
   + AWS Organizations 🚧
   + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key ✅
@@ -150,7 +148,7 @@
   - CodePipeline 🚧
   - CodeDeploy 🚧
 
-## Part 2: Security
+## Part 2: Security Deep-Dive
 Security
   - AWS Security Hub
   - AWS Certificate Manager ✅
@@ -168,7 +166,7 @@ Security
   - AWS CloudHSM (Hardware Security Module)
   - AWS Artifact
 
-## Part 4: Big Data & BI Analytics
+## Part 3: Big Data & BI Analytics
 - *Amazon Athena* (SQL on S3)
 - *Amazon EMR* (Managed Hadoop Framework)
   + Hadoop
@@ -190,7 +188,7 @@ Security
 - *AWS Data Pipeline* (Movement and Transformation of data)
 - *AWS Lake Formation* (Data Lakes, vs. Snowflake)
 
-## Part 3: Software 2.0
+## Part 4: Software 2.0
 
 ### Artifical Intelligence
 - AWS SageMaker
@@ -218,6 +216,8 @@ Security
 ### Satellite
 - AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
 
+# Mastering AWS
+
 ## Mastering AWS: Books
 - AWS in a Month of Lunches (Manning)
 - AWS Security (Manning - EAP)
@@ -233,23 +233,12 @@ Security
 - [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
 
 ## Mastering AWS: Projects
-- AWS The Good Parts
+- AWS The Good Parts ✅
 - Manning LiveProject: [Automating Infrastructure for an E-commerce Website with Terraform and AWS
 ](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
 - Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
 - Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
 - [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
-
-## Mastering AWS: AWS Online Content
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?icmpid=link_from_docs_website)
-- [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
-- [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
-- [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc)
-- [AWS Free Digital Training](https://www.aws.training/LearningLibrary?filters=language%3A1&filters=digital%3A1&tab=view_all)
-- [AWS Workshops](https://awsworkshop.io/)
-  + [AWS Security Workshops](https://awssecworkshops.com/)
-  + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
-- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
 
 ## Building/Deploy my own Apps on AWS
 - Sample Apps:
@@ -271,3 +260,19 @@ Security
   - Microservices: Web App (Fargate or EKS), Web API (Fargate or EKS, API Gateway), Worker (Lambda, API Gateway)
   - DynamoDB, ElastiCache (Redis)
   - SQS, SNS/SES
+
+## AWS CLI Tools
+- AWS CLI v2 for interacting with all your AWS resources: `aws` cli
+  + [Source: AWS CLI v2 installation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html)
+  + `aws`
+- AWS SAM CLI for Serverless Development: `sam`
+  + `brew tap aws/tap` && `brew install aws-sam-cli`
+- AWS ECS CLI 2.0 for Containers based Development: `copilot`
+  + `brew install aws/tap/copilot-cli`
+- Open-source tool to interact with S3: `s3cmd`
+- `sls-dev-tools`
+- AWS CloudFormation Linter: [`cfn-lint`](https://github.com/aws-cloudformation/cfn-python-lint)
+  + `brew install cfn-lint`
+- Stelligent CloudFormation Security Linter: [`cfn-nag`](https://github.com/stelligent/cfn_nag)
+  + `gem install cfn-nag` OR
+  + `brew install ruby brew-gem` && `brew gem install cfn-nag`
