@@ -34,25 +34,25 @@
 - AWS Well Architected Tool
 
 ## Part 1: Building Modern Apps in AWS
-- 1. AWS Identity & Access Management (IAM)
+- AWS Identity & Access Management (IAM)
   + AWS Organizations 🚧
   + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key ✅
   + Groups ✅
   + Roles 🚧
   + Permissions via Identity and Resource Policies 🚧
-  + 2. AWS Control Tower
+  + AWS Control Tower
     - [AWS Landing Zone](http://aws.amazon.com/answers/aws-landing-zone/)
-  + 3. *Amazon Cloud Directory*
-  + 4. *Amazon Directory Service*
-  + 5. *AWS Single Sign-On*
-- 6. Billing Dashboard for Cost Management
+  + *Amazon Cloud Directory*
+  + *Amazon Directory Service*
+  + *AWS Single Sign-On*
+- Billing Dashboard for Cost Management
   + AWS Budgets 🚧
   + AWS Cost Explorer 🚧
   + AWS Cost and Usage Reports
   + Reserved Instance Reporting
   + Tag Editor 🚧
 + Network/Security
-  - 7. VPC ✅
+  - VPC ✅
     + 1 Region, 3 AZs ✅
     + "N" Subnets (Public/Private) ✅
     + Security Groups ✅
@@ -63,64 +63,64 @@
     + VPC Endpoint
     + VPC Endpoint Services (AWS PrivateLink)
     + Elastic IP (EIP)
-  - 8. Route53 ✅
-  - 9. CloudFront ✅
-  - 10. Amazon API Gateway
-  - 11. AWS App Mesh
-  - 12. AWS Cloud Map
-  - 13. *AWS Transit Gateway* (think, Cisco SCI) 🚧
-  - 14. *AWS Direct Connect*
-  - 15. *AWS Global Accelerator*
+  - Route53 ✅
+  - CloudFront ✅
+  - Amazon API Gateway
+  - AWS App Mesh
+  - AWS Cloud Map
+  - *AWS Transit Gateway* (think, Cisco SCI) 🚧
+  - *AWS Direct Connect*
+  - *AWS Global Accelerator*
 + Compute: Virtual Machines
-  - 16. EC2 ✅
+  - EC2 ✅
     + Ubuntu 20.04 AMI ✅
     + Amazon Linux 2 AMI ✅
     + Elastic Block Store (EBS) ✅
     + Auto Scaling ✅
       - Launch Configs ✅
       - Auto Scaling Groups ✅
-  - 17. Elastic Load Balancing (ELB) 🚧
+  - Elastic Load Balancing (ELB) 🚧
     + Application Load Balancing (ALB) ✅
       - Target Groups
     + Network Load Balancing (NLB) 🚧
 + Compute: PaaS, CaaS, FaaS 
-  - 18. AWS Elastic Container Service (ECS)
-    + 19. AWS Elastic Container Registry (ECR)
-  - 20. AWS Fargate
-  - 21. AWS Elastic Kubernetes Service (EKS)
-  - 22. AWS Lambda 🚧
-  - 23. *AWS Elastic Beanstalk*
-  - 24. *Amazon Lightsail* (v. DigitalOcean)
-  - 25. AWS Batch
+  - AWS Elastic Container Service (ECS)
+    + AWS Elastic Container Registry (ECR)
+  - AWS Fargate
+  - AWS Elastic Kubernetes Service (EKS)
+  - AWS Lambda 🚧
+  - *AWS Elastic Beanstalk*
+  - *Amazon Lightsail* (v. DigitalOcean)
+  - AWS Batch
 + Storage: Files
-  - 26. Amazon Simple Secure Storage (S3) ✅
-  - 27. Amazon Elastic File System
-  - 28. *Amazon S3 Glacier & S3 Glacier Deep Archive*
-  - 29. AWS Storage Gateway (Hybrid storage service that enables your on-premises apps to seamlessly use AWS cloud storage)
+  - Amazon Simple Secure Storage (S3) ✅
+  - Amazon Elastic File System
+  - *Amazon S3 Glacier & S3 Glacier Deep Archive*
+  - AWS Storage Gateway (Hybrid storage service that enables your on-premises apps to seamlessly use AWS cloud storage)
 + Data
-  - 30. RDS 🚧
+  - RDS 🚧
     + Aurora/MySQL
     + Aurora/Postgres
     + Postgres
     + MySQL 🚧
-  - 31. Amazon DynamoDB
-  - 32. Amazon ElastiCache (Redis)
-  - 33. *Amazon Neptune*
-  - 34. *Amazon Quantum Ledger Database (QLDB)*
-  - 35. *Amazon Timestream*
-  - 36. *Amazon DocumentDB (MongoDB compatibility)*
+  - Amazon DynamoDB
+  - Amazon ElastiCache (Redis)
+  - *Amazon Neptune*
+  - *Amazon Quantum Ledger Database (QLDB)*
+  - *Amazon Timestream*
+  - *Amazon DocumentDB (MongoDB compatibility)*
 + Event-based Apps
-  - 37. Amazon Simple Notification Service (SNS)
-  - 38. Amazon Simple Queue Service (SQS)
-    + 39. Amazon MQ (Managed Apache ActiveMQ service)
-  - 40. AWS Step Functions (Workflow Engine, vs. Airflow, Argo)
-    + 41. AWS Simple Workflow Service (SWF)
+  - Amazon Simple Notification Service (SNS)
+  - Amazon Simple Queue Service (SQS)
+    + 3Amazon MQ (Managed Apache ActiveMQ service)
+  - AWS Step Functions (Workflow Engine, vs. Airflow, Argo)
+    + AWS Simple Workflow Service (SWF)
 + Dev**Ops**
-  - 42. Amazon CloudWatch
+  - Amazon CloudWatch
     + Monitoring 🚧
     + Logs
     + Alarms
-  - 43. AWS Systems Manager
+  - AWS Systems Manager
     + Resource Groups 🚧
     + Insights Dashboard
       - Pull API call logs from CloudTrail
@@ -132,91 +132,91 @@
     + State Manager
     + Parameter Store
     + Session Manager
-  - 44. AWS X-Ray
-  - 45. AWS Auto Scaling
-  - 46. CloudFormation
-  - 47. CloudTrail
-  - 48. AWS Config
-  - 49. *AWS Opsworks*
+  - AWS X-Ray
+  - AWS Auto Scaling
+  - CloudFormation
+  - CloudTrail
+  - AWS Config
+  - *AWS Opsworks*
     + Chef
     + Puppet 
-  - 50. AWS Service Catalog
-  - 51. Personal Health Dashboard
-  - 52. AWS License Manager
+  - AWS Service Catalog
+  - Personal Health Dashboard
+  - AWS License Manager
 + **Dev**Ops
-  - 53. CodeCommit 🚧
-  - 54. CodeBuild 🚧
-  - 55. CodeArtifact
-  - 56. CodePipeline 🚧
-  - 57. CodeDeploy 🚧
+  - CodeCommit 🚧
+  - CodeBuild 🚧
+  - CodeArtifact
+  - CodePipeline 🚧
+  - CodeDeploy 🚧
 
 ## Part 2: Security
 Security
-  - 1. AWS Security Hub
-  - 2. AWS Certificate Manager ✅
-  - 3. AWS WAF
+  - AWS Security Hub
+  - AWS Certificate Manager ✅
+  - AWS WAF
     + AWS Firewall Manager
-  - 4. AWS Shield
+  - AWS Shield
     + Standard
     + Advanced
-  - 5. AWS Inspector
+  - AWS Inspector
     + Extremely EC2 specific
-  - 6. Amazon GuardDuty
-  - 7. AWS Macie
-  - 8. AWS Secrets Manager (v. Vault)
-  - 9. AWS Key Management Service (KMS)
-  - 10. AWS CloudHSM (Hardware Security Module)
-  - 11. AWS Artifact
+  - Amazon GuardDuty
+  - AWS Macie
+  - AWS Secrets Manager (v. Vault)
+  - AWS Key Management Service (KMS)
+  - AWS CloudHSM (Hardware Security Module)
+  - AWS Artifact
 
 ## Part 4: Big Data & BI Analytics
-- 1. *Amazon Athena* (SQL on S3)
-- 2. *Amazon EMR* (Managed Hadoop Framework)
+- *Amazon Athena* (SQL on S3)
+- *Amazon EMR* (Managed Hadoop Framework)
   + Hadoop
   + Spark
   + HBase
   + Presto
   + Flink
-- 3. *Amazon CloudSearch*
-- 4. Amazon Elasticsearch
-- 5. Amazon Kinesis (Distributed Commit log for Streaming/Processing Data; vs. Kafka/Kafka Streams/kSQL)
+- *Amazon CloudSearch*
+- Amazon Elasticsearch
+- Amazon Kinesis (Distributed Commit log for Streaming/Processing Data; vs. Kafka/Kafka Streams/kSQL)
   + Kinesis Data Firehose
   + Kinesis Data Streams
   + Kinesis Data Analytics
   + *Kinesis Video Streams*
   + Amazon Managed Streaming for Kafka (MSK)
-- 6. *Amazon Redshift (Data Warehouse; vs. BigQuery or Snowflake)*
-- 7. *Amazon QuickSight* (Business Intelligence Service; vs. Tableau, Microsoft Power BI)
-- 8. *AWS Glue* (Managed Extract Transform and Load (ETL) Service, vs. Informatica)
-- 9. *AWS Data Pipeline* (Movement and Transformation of data)
-- 10. *AWS Lake Formation* (Data Lakes, vs. Snowflake)
+- *Amazon Redshift (Data Warehouse; vs. BigQuery or Snowflake)*
+- *Amazon QuickSight* (Business Intelligence Service; vs. Tableau, Microsoft Power BI)
+- *AWS Glue* (Managed Extract Transform and Load (ETL) Service, vs. Informatica)
+- *AWS Data Pipeline* (Movement and Transformation of data)
+- *AWS Lake Formation* (Data Lakes, vs. Snowflake)
 
 ## Part 3: Software 2.0
 
 ### Artifical Intelligence
-1. AWS SageMaker
+- AWS SageMaker
   + AWS SageMaker Ground Truth
-2. Amazon Comprehend (NLP service that uses machine learning to find insights and relationships in text)
-3. Amazon Lex (Build conversational interfaces into any app using voice and text. Speech recognition and natural language understanding are some of the most challenging problems to solve in computer science. Lex brings Alexa's tech!)
-4. Amazon Polly (Service that turns text into lifelike speech! Lets you create apps that talk!!)
-5. Amazon Rekognition (Service that makes it easy to add image analysis to apps)
-6. Amazon Translate (Machine Translation service that delivers fast, high-quality, and affordable language translation)
-7. Amazon Transcribe (Automatic Speech Recognition (ASR) service. Makes it easy for developers to speech-to-text capability to apps)
-8. Amazon Textract (Service that automatically extracts data from scanned docs. Goes beyond OCR to read data from form fields and tables)
-9. Amazon Forecast (Service that uses machine learning to deliver high quality accurate business forecasts)
-10. Amazon Personalize (Service that uses machine learning to help apps create individualized recommendations for their users/customers) 
-11. Amazon Deep Learning AMIs (Helps ML practitioners by giving them infra/tools to accelerate deep learning in the cloud)
-12. AWS DeepLens (Helps developers get started with Deep Learning)
-13. AWS DeepRacer (Helps developers get started with reinforcement learning(RL))
-14. Apache MXNet on AWS
-15. TensorFlow on AWS
-16. Amazon Elastic Inference (Allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and SageMaker instances to reduce cost of running deep learning inference)
-17. AWS Inferentia (Machine Learning inference chip designed to deliver high performance at low cost. Making predictions using a trained machine learning model - a process called "inference" - can drive as much as 90% of the compute costs of the app. While Amazon Elastic Inference can reduce costs by up to 75%, some inference workloads require an entire GPU or have extremely low latency requirements. Solving this at low cost requires a dedicated inference chip!) 
+- Amazon Comprehend (NLP service that uses machine learning to find insights and relationships in text)
+- Amazon Lex (Build conversational interfaces into any app using voice and text. Speech recognition and natural language understanding are some of the most challenging problems to solve in computer science. Lex brings Alexa's tech!)
+- Amazon Polly (Service that turns text into lifelike speech! Lets you create apps that talk!!)
+- Amazon Rekognition (Service that makes it easy to add image analysis to apps)
+- Amazon Translate (Machine Translation service that delivers fast, high-quality, and affordable language translation)
+- Amazon Transcribe (Automatic Speech Recognition (ASR) service. Makes it easy for developers to speech-to-text capability to apps)
+- Amazon Textract (Service that automatically extracts data from scanned docs. Goes beyond OCR to read data from form fields and tables)
+- Amazon Forecast (Service that uses machine learning to deliver high quality accurate business forecasts)
+- Amazon Personalize (Service that uses machine learning to help apps create individualized recommendations for their users/customers) 
+- Amazon Deep Learning AMIs (Helps ML practitioners by giving them infra/tools to accelerate deep learning in the cloud)
+- AWS DeepLens (Helps developers get started with Deep Learning)
+- AWS DeepRacer (Helps developers get started with reinforcement learning(RL))
+- Apache MXNet on AWS
+- TensorFlow on AWS
+- Amazon Elastic Inference (Allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and SageMaker instances to reduce cost of running deep learning inference)
+- AWS Inferentia (Machine Learning inference chip designed to deliver high performance at low cost. Making predictions using a trained machine learning model - a process called "inference" - can drive as much as 90% of the compute costs of the app. While Amazon Elastic Inference can reduce costs by up to 75%, some inference workloads require an entire GPU or have extremely low latency requirements. Solving this at low cost requires a dedicated inference chip!) 
 
 ### Robotics
-1. AWS Robomaker (Service that makes it easy to develop, test and deploy intelligent robotics apps)
+- AWS Robomaker (Service that makes it easy to develop, test and deploy intelligent robotics apps)
 
 ### Satellite
-1. AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
+- AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
 
 ## Mastering AWS: Books
 - AWS in a Month of Lunches (Manning)
