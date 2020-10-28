@@ -7,28 +7,6 @@
 - AWS Certified Developer - Associate
 - AWS Certified Advanced Networking - Specialty
 
-## AWS Books
-- AWS in a Month of Lunches (Manning)
-- AWS Security (Manning - EAP)
-- AWS in Action 2nd Ed (Manning)
-- AWS The Good Parts (Gumroad)
-- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton) 🚧
-- AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
-- AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
-- AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
-
-## AWS VoDs
-- AWS in Motion (Manning)
-- [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
-
-## AWS Projects
-- AWS The Good Parts
-- Manning LiveProject: [Automating Infrastructure for an E-commerce Website with Terraform and AWS
-](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
-- Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
-- Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
-- [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
-
 ## AWS Certified Cloud Practitioner
 - [acloud.guru: Introduction to Cloud Computing](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅
 - [acloud.guru: Introduction to AWS](https://learn.acloud.guru/course/aws-technical-essentials/dashboard) ✅

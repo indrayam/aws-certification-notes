@@ -26,11 +26,11 @@
 ## Part 0: Best-Practice/Cost Optimization Enablers
 - [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html) 🚧
 - [AWS Pricing Calculator](https://calculator.aws/#/) 🚧
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
-  + [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 - [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc) 🚧
 - [AWS Compliance](https://aws.amazon.com/compliance/) 🚧
 - AWS Trusted Advisor 🚧
+- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
+  + [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 - AWS Well Architected Tool
 
 ## Part 1: Building Modern Apps in AWS
@@ -218,7 +218,29 @@ Security
 ### Satellite
 1. AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
 
-## AWS Online Learning Materials
+## Mastering AWS: Books
+- AWS in a Month of Lunches (Manning)
+- AWS Security (Manning - EAP)
+- AWS in Action 2nd Ed (Manning)
+- AWS The Good Parts (Gumroad)
+- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
+- AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
+- AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
+- AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
+
+## Mastering AWS: VoDs
+- AWS in Motion (Manning)
+- [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
+
+## Mastering AWS: Projects
+- AWS The Good Parts
+- Manning LiveProject: [Automating Infrastructure for an E-commerce Website with Terraform and AWS
+](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
+- Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
+- Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
+- [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
+
+## Mastering AWS: AWS Online Content
 - [AWS Architecture Center](https://aws.amazon.com/architecture/?icmpid=link_from_docs_website)
 - [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
@@ -229,23 +251,23 @@ Security
   + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
 - [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
 
-## Building Apps on AWS
-- Deploy Sample Modern Apps on AWS:
+## Building/Deploy my own Apps on AWS
+- Sample Apps:
   + [GCP Microservices Demo App](https://github.com/GoogleCloudPlatform/microservices-demo)
   + [Weaveworks Sock Shop](https://microservices-demo.github.io/)
   + [Twitter Voting App](https://github.com/dockersamples/example-voting-app)
   + [Scaling Microservices with Message Queues, Spring Boot and Kubernetes](https://medium.com/hackernoon/scaling-microservices-with-message-queues-spring-boot-and-kubernetes-9ba4b0e48bdf)
-  + My App (Stocks Rock!):
-    - Capabilities:
-      + Allow users to create a basket of stocks. 
-        - Support Symbol Look, which should make a live call and show latest information about the company
-        - Support Add, Edit and Delete
-        - Fields to provide: Name, Email, Stock Symbol, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase
-        - List View shows: Stock Symbol, Company Name, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase, Total Value Now, % Gain/Loss, Status
-      + Adding and/or Editing is handled using synchronous API call
-      + Deleting will trigger Worker via SQS. Worker will use SNS (or SES) to send email asking for confirmation
-      + User's selection of stocks as well as Audit trail is stored in Aurora Serverless (MySQL) and/or DynamoDB
-      + List view is cached in ElastiCache, with Refresh functionality
-    - Microservices: Web App (Fargate or EKS), Web API (Fargate or EKS, API Gateway), Worker (Lambda, API Gateway)
-    - DynamoDB, ElastiCache (Redis)
-    - SQS, SNS/SES
+- My App: **Stox Shop!**
+  - Capabilities:
+    + Allow users to create a basket of stocks. 
+      - Support Symbol Look, which should make a live call and show latest information about the company
+      - Support Add, Edit and Delete
+      - Fields to provide: Name, Email, Stock Symbol, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase
+      - List View shows: Stock Symbol, Company Name, Number of Shares Purchased, Cost/Share, Total Cost, Date of Purchase, Total Value Now, % Gain/Loss, Status
+    + Adding and/or Editing is handled using synchronous API call
+    + Deleting will trigger Worker via SQS. Worker will use SNS (or SES) to send email asking for confirmation
+    + User's selection of stocks as well as Audit trail is stored in Aurora Serverless (MySQL) and/or DynamoDB
+    + List view is cached in ElastiCache, with Refresh functionality
+  - Microservices: Web App (Fargate or EKS), Web API (Fargate or EKS, API Gateway), Worker (Lambda, API Gateway)
+  - DynamoDB, ElastiCache (Redis)
+  - SQS, SNS/SES
