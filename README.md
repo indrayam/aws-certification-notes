@@ -34,18 +34,23 @@
 - AWS Well Architected Tool
 
 ## Part 1: Building Modern Apps in AWS
-- 1. Identity & Access Management (IAM)
+- 1. AWS Identity & Access Management (IAM)
   + AWS Organizations 🚧
   + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key ✅
   + Groups ✅
   + Roles 🚧
   + Permissions via Identity and Resource Policies 🚧
-- 2. Cost Management
+  + 2. AWS Control Tower
+    - [AWS Landing Zone](http://aws.amazon.com/answers/aws-landing-zone/)
+  + 3. *Amazon Cloud Directory*
+  + 4. *Amazon Directory Service*
+  + 5. *AWS Single Sign-On*
+- 6. Billing Dashboard for Cost Management
   + AWS Budgets 🚧
   + AWS Cost Explorer 🚧
   + Tag Editor 🚧
 + Network/Security
-  - 3. VPC ✅
+  - 7. VPC ✅
     + 1 Region, 3 AZs ✅
     + "N" Subnets (Public/Private) ✅
     + Security Groups ✅
@@ -53,64 +58,67 @@
     + Internet Gateway ✅
     + NAT Gateway
     + NACL ✅
-    + VPC Endpoints
+    + VPC Endpoint
+    + VPC Endpoint Services (AWS PrivateLink)
     + Elastic IP (EIP)
-  - 4. Route53 ✅
-  - 5. CloudFront ✅
-  - 6. AWS Certificate Manager ✅
+  - 8. Route53 ✅
+  - 9. CloudFront ✅
+  - 10. Amazon API Gateway
+  - 11. AWS App Mesh
+  - 12. AWS Cloud Map
+  - 13. *AWS Transit Gateway* (think, Cisco SCI) 🚧
+  - 14. *AWS Direct Connect*
+  - 15. *AWS Global Accelerator*
 + Compute: Virtual Machines
-  - 7. EC2 ✅
+  - 16. EC2 ✅
     + Ubuntu 20.04 AMI ✅
     + Amazon Linux 2 AMI ✅
     + Elastic Block Store (EBS) ✅
-  - 8. Elastic Load Balancing (ELB) 🚧
+    + Auto Scaling ✅
+      - Launch Configs ✅
+      - Auto Scaling Groups ✅
+  - 17. Elastic Load Balancing (ELB) 🚧
     + Application Load Balancing (ALB) ✅
       - Target Groups
     + Network Load Balancing (NLB) 🚧
-  - 9. Auto Scaling ✅
-    + Launch Configs ✅
-    + Auto Scaling Groups ✅
 + Compute: PaaS, CaaS, FaaS 
-  - 10. AWS Elastic Container Service (ECS)
-    + 11. AWS Elastic Container Registry (ECR)
-  - 12. AWS Fargate
-  - 13. AWS Elastic Kubernetes Service (EKS)
-  - 14. AWS Lambda 🚧
-  - 15. *AWS Elastic Beanstalk*
-  - 16. *Amazon Lightsail* (v. DigitalOcean)
-  - 17. AWS Batch 
+  - 18. AWS Elastic Container Service (ECS)
+    + 19. AWS Elastic Container Registry (ECR)
+  - 20. AWS Fargate
+  - 21. AWS Elastic Kubernetes Service (EKS)
+  - 22. AWS Lambda 🚧
+  - 23. *AWS Elastic Beanstalk*
+  - 24. *Amazon Lightsail* (v. DigitalOcean)
+  - 25. AWS Batch
 + Storage: Files
-  - 18. Simple Secure Storage (S3) ✅
-  - 19. *Glacier*
-    + *Glacier Deep Archive*
+  - 26. Amazon Simple Secure Storage (S3) ✅
+  - 27. Amazon Elastic File System
+  - 28. *Amazon S3 Glacier & S3 Glacier Deep Archive*
+  - 29. AWS Storage Gateway (Hybrid storage service that enables your on-premises apps to seamlessly use AWS cloud storage)
 + Data
-  - 20. RDS 🚧
+  - 30. RDS 🚧
     + Aurora/MySQL
     + Aurora/Postgres
     + Postgres
     + MySQL 🚧
-  - 21. Amazon DynamoDB
-  - 22. Amazon ElastiCache (Redis)
-  - *23. Amazon Neptune*
-  - *24. Amazon Quantum Ledger Database (QLDB)*
-  - *25. Amazon Timestream*
-  - 26. Amazon DocumentDB (MongoDB compatibility)
+  - 31. Amazon DynamoDB
+  - 32. Amazon ElastiCache (Redis)
+  - 33. *Amazon Neptune*
+  - 34. *Amazon Quantum Ledger Database (QLDB)*
+  - 35. *Amazon Timestream*
+  - 36. *Amazon DocumentDB (MongoDB compatibility)*
 + Event-based Apps
-  - 27. Amazon Simple Notification Service (SNS)
-  - 28. Amazon Simple Queue Service (SQS)
-    + 29. Amazon MQ (Managed Apache ActiveMQ service)
-  - 30. AWS Step Functions (Workflow Engine, vs. Airflow, Argo)
-    + 31. AWS Simple Workflow Service (SWF)
+  - 37. Amazon Simple Notification Service (SNS)
+  - 38. Amazon Simple Queue Service (SQS)
+    + 39. Amazon MQ (Managed Apache ActiveMQ service)
+  - 40. AWS Step Functions (Workflow Engine, vs. Airflow, Argo)
+    + 41. AWS Simple Workflow Service (SWF)
 + Dev**Ops**
-  - 32. Amazon CloudWatch
+  - 42. Amazon CloudWatch
     + Monitoring 🚧
     + Logs
     + Alarms
-  - 33. AWS X-Ray
-  - 34. AWS Auto Scaling
-  - 35. AWS Control Tower
-    + [AWS Landing Zone](http://aws.amazon.com/answers/aws-landing-zone/)
-  - 36. AWS Systems Manager
+  - 43. AWS Systems Manager
     + Resource Groups 🚧
     + Insights Dashboard
       - Pull API call logs from CloudTrail
@@ -122,33 +130,41 @@
     + State Manager
     + Parameter Store
     + Session Manager
-  - 37. CloudFormation
-  - 38. CloudTrail
-  - 39. AWS Config
-  - 40. *AWS Opsworks*
+  - 44. AWS X-Ray
+  - 45. AWS Auto Scaling
+  - 46. CloudFormation
+  - 47. CloudTrail
+  - 48. AWS Config
+  - 49. *AWS Opsworks*
     + Chef
     + Puppet 
-  - 41. AWS Service Catalog
-  - 42. Personal Health Dashboard
-  - 43. AWS License Manager
+  - 50. AWS Service Catalog
+  - 51. Personal Health Dashboard
+  - 52. AWS License Manager
 + **Dev**Ops
-  - 44. CodeCommit 🚧
-  - 45. CodeBuild 🚧
-  - 46. CodeArtifact
-  - 47. CodePipeline 🚧
-  - 48. CodeDeploy 🚧
+  - 53. CodeCommit 🚧
+  - 54. CodeBuild 🚧
+  - 55. CodeArtifact
+  - 56. CodePipeline 🚧
+  - 57. CodeDeploy 🚧
 
-## Part 2: Diving into Security
+## Part 2: Security
 Security
-  - 1. AWS WAF
+  - 1. AWS Security Hub
+  - 2. AWS Certificate Manager ✅
+  - 3. AWS WAF
     + AWS Firewall Manager
-  - 2. AWS Shield
+  - 4. AWS Shield
     + Standard
     + Advanced
-  - 3. AWS Inspector
+  - 5. AWS Inspector
     + Extremely EC2 specific
-  - 4. AWS Macie
-  - 5. AWS Key Management Service (KMS)
+  - 6. Amazon GuardDuty
+  - 7. AWS Macie
+  - 8. AWS Secrets Manager (v. Vault)
+  - 9. AWS Key Management Service (KMS)
+  - 10. AWS CloudHSM (Hardware Security Module)
+  - 11. AWS Artifact
 
 ## Part 4: Big Data & BI Analytics
 - 1. *Amazon Athena* (SQL on S3)
@@ -173,6 +189,8 @@ Security
 - 10. *AWS Lake Formation* (Data Lakes, vs. Snowflake)
 
 ## Part 3: Software 2.0
+
+### Artifical Intelligence
 1. AWS SageMaker
   + AWS SageMaker Ground Truth
 2. Amazon Comprehend (NLP service that uses machine learning to find insights and relationships in text)
@@ -192,9 +210,24 @@ Security
 16. Amazon Elastic Inference (Allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and SageMaker instances to reduce cost of running deep learning inference)
 17. AWS Inferentia (Machine Learning inference chip designed to deliver high performance at low cost. Making predictions using a trained machine learning model - a process called "inference" - can drive as much as 90% of the compute costs of the app. While Amazon Elastic Inference can reduce costs by up to 75%, some inference workloads require an entire GPU or have extremely low latency requirements. Solving this at low cost requires a dedicated inference chip!) 
 
-## Learning to build Modern Apps on AWS
+### Robotics
+1. AWS Robomaker (Service that makes it easy to develop, test and deploy intelligent robotics apps)
+
+### Satellite
+1. AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
+
+## AWS Online Learning Materials
+- [AWS Architecture Center](https://aws.amazon.com/architecture/?icmpid=link_from_docs_website)
+- [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
 - [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc)
+- [AWS Free Digital Training](https://www.aws.training/LearningLibrary?filters=language%3A1&filters=digital%3A1&tab=view_all)
+- [AWS Workshops](https://awsworkshop.io/)
+  + [AWS Security Workshops](https://awssecworkshops.com/)
+  + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
+- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
+
+## Building Apps on AWS
 - Deploy Sample Modern Apps on AWS:
   + [GCP Microservices Demo App](https://github.com/GoogleCloudPlatform/microservices-demo)
   + [Weaveworks Sock Shop](https://microservices-demo.github.io/)
