@@ -1,5 +1,3 @@
-# AWS Nerd Notes
-
 # AWS Architecture
 
 ## AWS Online Docs & References
