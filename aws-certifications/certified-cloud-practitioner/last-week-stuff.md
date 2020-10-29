@@ -2,8 +2,8 @@
 
 ## **Recurring:** Practice, Practice, Practice
 - Retake all ACloudGuru's CCP Course Quizzes ✅ ✅
-- Practice using Wiley AWS Certified Cloud Practitioner Study Guide's Online Flash Cards (*OPTIONAL*)
-- Wiley AWS Certified Cloud Practitioner Study Guide: Quiz (*OPTIONAL*)
+- Practice using Wiley AWS Certified Cloud Practitioner Study Guide's Online Flash Cards (*OPTIONAL*) ✅
+- Wiley AWS Certified Cloud Practitioner Study Guide: Quiz (*OPTIONAL*) ✅
 
 ## Mon Oct 26th, 2020
 - Take ACloudGuru's CCP Pratice Exam ✅
@@ -17,8 +17,8 @@
 - Read AWS Pricing Paper ✅ 
 
 ## Thu Oct 29th, 2020
-- Read Notes from Richard Jones's CCP material
-- Read Notes from ACloudGuru's CCP material
+- Read Notes from Richard Jones's CCP material ✅
+- Read Notes from ACloudGuru's CCP material ✅
 
 
 

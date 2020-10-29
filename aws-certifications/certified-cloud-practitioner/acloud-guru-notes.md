@@ -607,7 +607,7 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
   + Case Response Times in case of Downtimes:
     - NA
 - Developer
-  + Cost: $29/month
+  + Cost: $29/month or 3% of monthly AWS usage
   + Tech Support only during business hours via email
   + No TAM
   + 1 person can open unlimited number of cases
@@ -615,7 +615,11 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
     - General Guidance will be provided within less than 24 business hours
     - If System is impaired, guidance will be provided within less than 12 business hours
 - Business
-  + Cost: $100/month
+  + Cost: $100/month or
+    - 10% for AWS Monthly Bill from $0 to $10k
+    - 7% for AWS Monthly Bill from $10k to $80k
+    - 5% for AWS Monthly Bill from $80k to $250k
+    - 3% for AWS Monthly Bill above $250k
   + Tech Support includes 24x7 chat, email and phone
   + No TAM
   + Unlimited number of people can open unlimited number of cases
@@ -625,7 +629,11 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
     - If Production System is impaired, guidance will be provided within less than 4 hours
     - If Production System is down, guidance will be provided within less than 1 hour
 - Enterprise
-  + Cost: $15,000/month
+  + Cost: $15,000/month or
+    - 10% for AWS Monthly Bill from $0 to $150k
+    - 7% for AWS Monthly Bill from $150k to $500k
+    - 5% for AWS Monthly Bill from $500k to $1M
+    - 3% for AWS Monthly Bill above $1M
   + Tech Support includes 24x7 chat, email and phone
   + Includes a TAM and a Billing Concierge service
   + Unlimited number of people can open unlimited number of cases
