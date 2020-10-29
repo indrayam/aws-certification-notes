@@ -101,7 +101,7 @@
   + Eventual Consistency for overwrite PUTS and DELETES (can take some time propogate)
     - Translation: If you update an EXISTING file or delete a file and read it immediately afterwards, you may get an older version or you may not. Basically, changes to objects can take a little bit of time to propogate
 - S3 is built for 99.99% availability. However, Amazon will guarantee 99.9% availability
-- S3 durability is 11x9s.
+- S3 data durability is 11x9s.
 - S3 Features:
   + Tiered Storage
     - Standard
@@ -118,7 +118,7 @@
     - ACLs are at File level
     - Bucket Policies control access at "Bucket" level
 - S3 Charges
-  + Storage Size on a per Gig bases
+  + Storage Size on a per Gig basis
   + Storage Management Pricing 
   + Number of Requests
   + Data Transfer Pricing
@@ -176,7 +176,7 @@
 - Pricing Model
   + On-demand. Pay by the sec. 
     - No upfront payment or long-term commitment
-    - Good for short-term, spik, or unpredictable workloads that cannot be interrupted
+    - Good for short-term, spike, or unpredictable workloads that cannot be interrupted
     - Apps being developed or tested on EC2 for the first time
   + Reserved. Provides you with a capacity reservation and at a heavy discount. Contract terms are 1 year or 3 years.
     - Apps with steady state or predictable usage
@@ -228,7 +228,7 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
     - GP2 (General Purpose): Balances price and performance for a wide variety of workloads
     - Provisioned IOPS SSD  (IO1, IO2): Highest-performance SSD volume for mission-critical low-latency or high-throughput workloads
   + Magnetic Types
-    - Throughput Optimized HDD (ST1): Low cost HDD volume designed for frequently accessed, throughput-intensive workloads
+    - Throughput Optimized HDD (ST1, ST2): Low cost HDD volume designed for frequently accessed, throughput-intensive workloads
     - Cold HDD (SC1): Lowest cost HDD volume designed for less frequently accessed workloads (File Servers)
 - If the Spot instance is terminated by Amazon EC2, you will NOT be charged for the partial hour of usage. However, if you terminate the instance yourself, you will be charged for the hour in which the instance ran
 - Linux access via SSH (Port 22)
@@ -268,8 +268,8 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
 - Non-relational (NoSQL) databases
   + DynamoDB
     + Collection = Table
-    + Document = Row
-    + Key/Value Pairs = Fields
+    + Document = Items
+    + Key/Value Pairs = Attributes
     + Columns in the database can vary. This will not affect other documents in the database
   + ElastiCache
     + In-memory, distributed caching layer
@@ -780,7 +780,7 @@ Stands for, "FIGHT DR MCPXZ in AUstin"
 - AWS Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS
   + Regional Service
   + Can do Network Assessments and/or Host assessments. For Network Assessments, no AI Agent is required. However, for Host assessment, AI agent is required.
-  + Amazon Inspector (AI) Agent: A softwa rethat you install on EC2 instances and reviews the configuration based on best practices
+  + Amazon Inspector (AI) Agent: A software that you install on EC2 instances and reviews the configuration based on best practices
   + Assessment target: Currently, AI assessment targets can consist only of EC2 instances!!!!
   + Automatically assesses applications for vulnerabilities or anomalies
   + After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity

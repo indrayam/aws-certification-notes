@@ -29,7 +29,7 @@
 - [AWS Compliance](https://aws.amazon.com/compliance/) 🚧
 - AWS Trusted Advisor 🚧
 
-## Part 1: Core AWS
+## Part 1: Getting Started with AWS
 - AWS Identity & Access Management (IAM)
   + AWS Organizations 🚧
   + Users: Root Account, IAM Users, MFA, Access Key ID, Secret Access Key ✅
@@ -111,7 +111,10 @@
     + 3Amazon MQ (Managed Apache ActiveMQ service)
   - AWS Step Functions (Workflow Engine, vs. Airflow, Argo)
     + AWS Simple Workflow Service (SWF)
-+ Dev**Ops**
+
+## Part 2: DevSecOps
+
+- Dev**Ops**
   - Amazon CloudWatch
     + Monitoring 🚧
     + Logs
@@ -139,15 +142,13 @@
   - AWS Service Catalog
   - Personal Health Dashboard
   - AWS License Manager
-+ **Dev**Ops
+- **Dev**Ops
   - CodeCommit 🚧
   - CodeBuild 🚧
   - CodeArtifact
   - CodePipeline 🚧
   - CodeDeploy 🚧
-
-## Part 2: Security Deep-Dive
-Security
++ Security & Compliance
   - AWS Security Hub
   - AWS Certificate Manager ✅
   - AWS WAF
