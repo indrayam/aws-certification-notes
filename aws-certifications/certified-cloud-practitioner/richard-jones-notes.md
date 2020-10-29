@@ -28,8 +28,8 @@
   + Redshift: Data Warehouse solution
   + Elasticache: K/V store. Caching solution. Think Redis!
 - Messaging
-  + SNS (Simple Notification Service): Via email or text message or to HTTP(S) end points
-  + SQS (Simple Query Service): Decouple your application by introduce async processing
+  + SNS (Simple Notification Service): App2App and App2Person integration 
+  + SQS (Simple Query Service): Decouple your application by introducing async processing
   + SES (Simple Email Service): Sending and receiving emails
 - Security & Identity
   + IAM (Identity and Access Management) *Comes up in all exams*
@@ -47,8 +47,8 @@
   + Service Catalog: For larger enterprises. Build out what they authorize to be used
   + Trusted Advisor: Give tips on your setup. Example: Cost optimization
 - Desktop & App Streaming
-  + Workspaces: Think VDI
-  + AppStream 2.0: Streaming desktop apps to your users
+  + Workspaces: Think VDI. Streaming desktop to users
+  + AppStream 2.0: Streaming desktop "app(s)" to users
 
 ## Cloud Computing Basics
 - Cloud Computing
@@ -147,7 +147,7 @@
     - Private DB Tier
   + Each tier should have Internet Access, High Availability, Fault Tolerance along with Isolation & Security
   + In such a case, you will end up with potentially 9 unique subnets, 3 for each tier and each tier replicated across 3 AZs
-  + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 16 subnets by using /21:
+  + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 32 subnets (bit of an overkill) by using /21:
     - 10.2.0.0/21 can have a maximum of 2^11 - 2 = 2046 Hosts in the Subnet
       Network IP: 10.2.0.0
       Broadcast IP: 10.2.7.255
@@ -164,7 +164,7 @@
       Network IP: 10.2.24.0
       Broadcast IP: 10.2.31.255
       Usable IP Addresses: 10.2.24.1 to 10.2.31.254
-    - ...plus 12 more subnets like this
+    - ...plus 28 more subnets like this
   + Subnets enable
     - Security via Isolation
     - Because subnets allow us to use multiple AZ, it enables High-Availability
@@ -313,7 +313,7 @@
   - Distributed K/V store
   - Buckets and Objects
   - Cluster spans Region
-  - Durable to loss ot 2 AZs
+  - Durable to loss of 2 AZs
   - Server side Encryption (AES256)
 - S3 Use Cases
   - Static HTML
@@ -455,6 +455,8 @@
   - Secondary indexes allowed
   - No table size limit
   - 400kb item size limit
+    + Max document size in MongoDB is 16MB. Translation, max size of an Item (or Document or Row) in DynamoDB is only 2.5% of a MongoDB document
+    + Max row size in Postgres is 1.6TB. Translation, max size of a MongoDB document is only .001% of a Postgres table
   - Item-level TTL
 - Use cases
   - Operational State/History
@@ -706,10 +708,10 @@
   - Know the services in scope
   - Speak with your Account Manager
 + Key AWS Services for Auditing & Compliance
-  - AWS Config
-  - AWS Service Catalog
   - AWS Artifact
+  - AWS Service Catalog
   - AWS CloudTrail
+  - AWS Config
 
 ## AWS Config
 - Resource Inventory
@@ -954,50 +956,4 @@
   - Access to a Well-Architected Review
   - Access to online labs
   - Dedicated Technical Account Manager
-
-
-## Reference: Additional AWS Services
-- These are not questioned as part of Certified Cloud Practitioner
-- That said, I will need to deep-dive into them for all my Associate Certs
-- Developer Tools
-  + CodeCommit: Think GitHub (Git portion)
-  + CodeBuild: Run Compilation/CI on your code
-  + CodeDeploy
-  + CodePipeline: Wraps them all into a Pipeline
-- Application Services
-  + Step Functions
-  + SWF (Simple Workflow Service)
-  + API Gateway: Create, publish and Monitor APIs which routes request to business functionalities (like Lambda). Think doorway to accessing your backend services
-  + AppStream
-  + Elastic Transcoder: Changes video format to support different devices
-- Analytics
-  + Athena: Turning flat files (CSV) into databases with SQL query frontend
-  + EMR (Elastic Map Reduce): Used to process large amounts of data! Using framework called Hadoop or Spark
-  + Cloud Search: Fully managed AWS service
-  + Elastic Search: Service using Elastic!
-  + Kinesis: Streaming and analyzing realtime data. Example: Financial transaction analysis in realtime, social media stream analysis for sentiment analysis
-  + Data Pipeline: Move data from S3 to DynamoDB, for example
-  + Quick Sight: Business Analytics tool. Visualization tool. 
-- AI
-  + lex
-  + polly: text into voice
-  + machine learning: give the dataset and predict outcome based on the learning
-  + rekognition: upload a pic and it will tell you what picture it is
-- Mobile App Services
-  + Cognito
-  + Device Farm
-  + Mobile Hub
-  + Mobile Analytics
-  + PinPoint: Think of combining Google Analytics with targeted marketing campaigns.
-- Business Productivity
-  + WorkDocs: Think Sharepoint
-  + WorkMail: Think Exchange
-- IoT
-  + iOT
-- Migration
-  + Snowball: An appliance to migrate/transfer content from Enterprise to AWS
-  + Snowball Edge
-  + DMS (Database Migration Service): A service to migrate database from enterprises into AWS or within AWS regions or even across Database types
-  + SMS (Server Migration Service): A service to migrate VMs
-
 

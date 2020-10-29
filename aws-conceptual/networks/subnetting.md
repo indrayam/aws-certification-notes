@@ -22,7 +22,7 @@
     - Private DB Tier
   + Each tier should have Internet Access, High Availability, Fault Tolerance along with Isolation & Security
   + In such a case, you will end up with potentially 9 unique subnets, 3 for each tier and each tier replicated across 3 AZs
-  + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 16 subnets by using /21:
+  + For example, if the VPC CIDR is set to 10.2.0.0/16, we could create 9 Subnets, using the following 32 subnets (bit of an overkill) by using /21:
     - 10.2.0.0/21 can have a maximum of 2^11 - 2 = 2046 Hosts in the Subnet
       Network IP: 10.2.0.0
       Broadcast IP: 10.2.7.255
@@ -39,7 +39,7 @@
       Network IP: 10.2.24.0
       Broadcast IP: 10.2.31.255
       Usable IP Addresses: 10.2.24.1 to 10.2.31.254
-    - ...plus 12 more subnets like this
+    - ...plus 28 more subnets like this
   + Subnets enable
     - Security via Isolation
     - Because subnets allow us to use multiple AZ, it enables High-Availability
