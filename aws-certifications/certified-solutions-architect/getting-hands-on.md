@@ -1,15 +1,21 @@
-# AWS Getting Hands-On
+# AWS Solutions Architect - Associate
 
+## Getting Hands-On
 Before I take any of the *AWS Associate* level certifications (*AWS Certified Solutions Architect - Associate* or *AWS Certified Developer - Associate* or AWS Certified SysOps Administrator - Associate*), I want to make sure:
 
 - Build deep theoretical understanding of the AWS services listed below
 - Write sample apps that allows you to get hands-on with many (if not, all) of the AWS services listed below
-- Run many multi-tiered applications on AWS
+  + *Python*, *Rust*, *Go*
+  + *MongoDB*, *Postgres*, *Redis*
+  + *Kafka*
+- Run Multi-tiered Applications on AWS
 
-## IAM
+## Key AWS Services
+
+### 1. IAM
 + Policies
 
-## Networking
+### 2. Networking
 + VPC
 + Elastic Load Balancing (ELB)
 + Route53
@@ -18,7 +24,7 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 + AWS Transit Gateway
 + AWS Global Accelerator
 
-## Compute
+### 3. Compute
 + EC2
 + ASG
 + Elastic Block Store (EBS)
@@ -28,24 +34,24 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 + AWS Elastic Kubernetes Service (EKS)
 + AWS Lambda
 
-## Storage
+### 4. Storage
 + Amazon Simple Secure Storage (S3)
 + Amazon Elastic File System (EFS)
 + Amazon S3 Glacier & S3 Glacier Deep Archive
 
-## Database
+### 5. Database
 + RDS Aurora
 + Amazon DynamoDB
 + Amazon ElastiCache (Redis)
 
-## Event-based Apps
+### 6. Events/Data Streams
 + Amazon Simple Notification Service (SNS)
 + Amazon Simple Queue Service (SQS)
 + AWS Step Functions
 + Amazon Kinesis
 + Apache EMR
 
-## DevSecOps
+### 7. DevSecOps
 + CloudTrail
 + AWS Systems Manager
 + CloudFormation
