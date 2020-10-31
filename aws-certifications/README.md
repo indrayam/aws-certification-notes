@@ -1,7 +1,7 @@
 # AWS Certifications
 
 ## AWS Certifications
-- AWS Certified Cloud Practitioner
+- AWS Certified Cloud Practitioner ✅
 - AWS Certified Solutions Architect - Associate
 - AWS Certified SysOps Administrator - Associate
 - AWS Certified Developer - Associate
@@ -13,20 +13,24 @@
 - [Richard Jones: AWS Certified Cloud Practitioner, 1/e **May 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135940037/?autoplay=false) ✅
 - [acloud.guru: AWS Certified Cloud Practitioner 2020](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard) ✅
 - AWS White Papers:
-  + Overview of AWS Services 🚧
-  + How AWS Pricing Works 🚧
+  + Overview of AWS Services ✅
+  + How AWS Pricing Works ✅
 
 **Optional:**
 - [Michael Shannon: AWS Certified Cloud Practitioner Exam Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-cloud-practitioner-exam-crash-course/0636920260257/)
 - [freeCodeCamp: AWS Certified Cloud Practitioner Training 2020 - Full Course **Oct 2019**](https://www.youtube.com/watch?v=3hLmDS179YE)
 
 ## AWS Certified Solutions Architect - Associate
-- [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
+- AWS in Action 2nd Ed (Manning)
+- AWS Security (Manning - EAP)
+- AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
 - [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
-- [Article: Tips from my Journey to an AWS Solutions Architect Associate Certification](https://medium.com/@lior.k.sh/tips-from-my-journey-for-aws-solutions-architect-associate-certification-8f4eb8344a98)
+- [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
 - [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
-- [freeCodeCamp: AWS Certified Solutions Architect - Associate 2020 (PASS THE EXAM!) **Dec 2019**](https://www.youtube.com/watch?v=Ia-UEYYR44s&feature=youtu.be)
 - [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
+
+**Optional:**
+- [freeCodeCamp: AWS Certified Solutions Architect - Associate 2020 (PASS THE EXAM!) **Dec 2019**](https://www.youtube.com/watch?v=Ia-UEYYR44s&feature=youtu.be)
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **Oct 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920319108/)
 - [Mark Wilkins: AWS Design Fundamentals **April 2019**](https://learning.oreilly.com/live-training/courses/aws-design-fundamentals/0636920251668/)
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920273509/)

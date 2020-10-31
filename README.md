@@ -114,7 +114,7 @@
 
 ## Part 2: DevSecOps
 
-- Dev**Ops**
+- DevSec**Ops**
   - Amazon CloudWatch
     + Monitoring 🚧
     + Logs
@@ -142,13 +142,13 @@
   - AWS Service Catalog
   - Personal Health Dashboard
   - AWS License Manager
-- **Dev**Ops
+- **Dev**SecOps
   - CodeCommit 🚧
   - CodeBuild 🚧
   - CodeArtifact
   - CodePipeline 🚧
   - CodeDeploy 🚧
-+ Security & Compliance
++ Dev**Sec**Ops
   - AWS Security Hub
   - AWS Certificate Manager ✅
   - AWS WAF
@@ -222,6 +222,7 @@
 - AWS Security (Manning - EAP)
 - AWS in Action 2nd Ed (Manning)
 - AWS The Good Parts (Gumroad)
+- AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
 - AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
 - AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
 - AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
