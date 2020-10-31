@@ -33,15 +33,21 @@
 - Design cost-optimized network architectures
 
 ## Preparing for AWS Certified Solutions Architect - Associate Exam (SAA-C02)
+
+### Books
 - AWS in Action 2nd Ed (Manning)
 - AWS Security (Manning - EAP)
+- AWS The Good Parts
+- The DynamoDB Book
 - AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
+
+### AWS Certified Solutions Architect - Associate Exam (SAA-C02) Training
 - [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
 - [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
 - [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
 - [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
 
-**Optional:**
+### Optional Learning
 - [freeCodeCamp: AWS Certified Solutions Architect - Associate 2020 (PASS THE EXAM!) **Dec 2019**](https://www.youtube.com/watch?v=Ia-UEYYR44s&feature=youtu.be)
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **Oct 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920319108/)
 - [Mark Wilkins: AWS Design Fundamentals **April 2019**](https://learning.oreilly.com/live-training/courses/aws-design-fundamentals/0636920251668/)
