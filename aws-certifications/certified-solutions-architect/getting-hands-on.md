@@ -5,7 +5,7 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 
 - Build deep theoretical understanding of the AWS services listed below
 - Write sample apps that allows you to get hands-on with many (if not, all) of the AWS services listed below
-  + *Python*, *Rust*, *Go*
+  + *Rust*, *Go*
   + *MongoDB*, *Postgres*, *Redis*
   + *Kafka*
 - Run Multi-tiered Applications on AWS
