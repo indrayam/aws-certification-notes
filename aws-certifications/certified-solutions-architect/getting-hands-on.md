@@ -9,7 +9,7 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
   + *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
 - Run Multi-tiered Applications on AWS
 
-## Key AWS Services
+## Key AWS Services and/or Service Concepts
 
 ### 1. IAM
 + Policies
