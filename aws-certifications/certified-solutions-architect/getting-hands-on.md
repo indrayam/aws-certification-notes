@@ -6,8 +6,7 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 - Build deep theoretical understanding of the AWS services listed below
 - Write sample apps that allows you to get hands-on with many (if not, all) of the AWS services listed below
   + *Rust*, *Go*
-  + *MongoDB*, *Postgres*, *Redis*
-  + *Kafka*
+  + *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
 - Run Multi-tiered Applications on AWS
 
 ## Key AWS Services
@@ -24,15 +23,18 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 + AWS Transit Gateway
 + AWS Global Accelerator
 
-### 3. Compute
+### 3a. Compute: VMs
 + EC2
 + ASG
 + Elastic Block Store (EBS)
+
+### 3b. Compute: Containers
 + AWS Elastic Container Service (ECS)
-+ AWS Elastic Container Registry (ECR)
-+ AWS Fargate
 + AWS Elastic Kubernetes Service (EKS)
+
+### 3c. Compute: Serverless
 + AWS Lambda
++ AWS Fargate
 
 ### 4. Storage
 + Amazon Simple Secure Storage (S3)
@@ -51,15 +53,20 @@ Before I take any of the *AWS Associate* level certifications (*AWS Certified So
 + Amazon Kinesis
 + Apache EMR
 
-### 7. DevSecOps
+### 7a. SysOps
 + CloudTrail
 + AWS Systems Manager
 + CloudFormation
+
+### 7b. DevTools
 + CodeCommit
 + CodeBuild
 + CodeArtifact
++ AWS Elastic Container Registry (ECR)
 + CodePipeline
 + CodeDeploy
+
+### 7c. Security 
 + AWS Certificate Manager
-+ AWS Secrets Manager (v. Vault)
++ AWS Secrets Manager
 + AWS Key Management Service (KMS)
