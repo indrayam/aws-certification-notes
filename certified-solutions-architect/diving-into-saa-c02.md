@@ -2,9 +2,10 @@
 
 ## Theoretical Deep-Dive for SAA-C02
 
-## AWS Online Docs & References
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
-- [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
+## AWS Docs & References
+- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
+- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
+  - [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 - [Amazon Builders' Library](https://aws.amazon.com/builders-library/)
 - [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
@@ -12,7 +13,6 @@
 - [AWS Workshops](https://awsworkshop.io/)
   + [AWS Security Workshops](https://awssecworkshops.com/)
   + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
-- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
 
 ### Books
 - AWS Certified Solutions Architect Official Study Guide (SAA-C01)
