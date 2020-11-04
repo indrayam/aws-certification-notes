@@ -1,4 +1,4 @@
-# sam
+# aws-sam-cli
 
 ## Reference
 - [Jump-starting your serverless development environment](https://aws.amazon.com/blogs/compute/jump-starting-your-serverless-development-environment/)
