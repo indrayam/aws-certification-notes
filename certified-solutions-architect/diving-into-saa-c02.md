@@ -46,7 +46,7 @@ Services/Concepts (Hands-On Experience): **3**
 - Run Multi-tiered Applications on AWS
 
 To write your own sample app, play with...
-- *Go*
+- *Go*, *Kotlin*
 - *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
 
 
