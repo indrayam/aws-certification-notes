@@ -46,7 +46,7 @@ Services/Concepts (Hands-On Experience): **3**
 - Run Multi-tiered Applications on AWS
 
 To write your own sample app, play with...
-- *Go*, *Java*, *Python*
+- *Go*
 - *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
 
 
@@ -122,12 +122,3 @@ To write your own sample app, play with...
 ### 11. Cost Management
 + AWS Cost Explorer ✅
 + AWS Budgets ✅
-
-## Getting Hands-On
-Before I take any of the *AWS Associate* level certifications (*AWS Certified Solutions Architect - Associate* or *AWS Certified Developer - Associate* or AWS Certified SysOps Administrator - Associate*), I want to make sure:
-
-- Build deep theoretical understanding of the AWS services listed below
-- Write sample apps that allows you to get hands-on with many (if not, all) of the AWS services listed below
-  + *Rust*, *Go*
-  + *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
-- Run Multi-tiered Applications on AWS
