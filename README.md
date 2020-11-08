@@ -144,11 +144,14 @@
   - Personal Health Dashboard
   - AWS License Manager
 - **Dev**SecOps
+  - CodeStar
+  - Cloud9
   - CodeCommit 🚧
   - CodeBuild 🚧
   - CodeArtifact
-  - CodePipeline 🚧
   - CodeDeploy 🚧
+  - CodePipeline 🚧
+  - AWS AppConfig
 + Dev**Sec**Ops
   - AWS Security Hub
   - AWS Certificate Manager ✅

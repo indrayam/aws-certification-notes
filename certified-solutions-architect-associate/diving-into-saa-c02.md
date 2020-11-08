@@ -37,10 +37,6 @@
 
 ## Hands-On Experience for SAA-C02
 
-Total: **51**
-Services/Concepts (Theoretical Understanding): **21**
-Services/Concepts (Hands-On Experience): **3**
-
 **Hands-On Goals:**
 - Write or Use Existing sample apps to get hands-on with many (if not, all) of the AWS services listed below
 - Run Multi-tiered Applications on AWS
@@ -49,6 +45,10 @@ To write your own sample app, play with...
 - *Go*, *Kotlin*
 - *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
 
+### 0. AWS and/or Architecture Concepts
+- Well Architected Framework
+- Shared Responsibility Model
+- HTTP Protocol
 
 ### 1. Identity & Access
 + AWS IAM ✅
@@ -87,7 +87,6 @@ To write your own sample app, play with...
 + Amazon Simple Notification Service (SNS)
 + Amazon Simple Queue Service (SQS)
 + AWS Step Functions
-+ Amazon EventBridge
 
 ### 7. Analytics
 + Amazon Kinesis
@@ -95,13 +94,15 @@ To write your own sample app, play with...
 + Amazon RedShift
 
 ### 8. Developer Tools
++ CodeStar
 + Cloud9
 + CodeCommit ✅
 + CodeBuild ✅
 + CodeArtifact
 + AWS Elastic Container Registry (ECR) ✅
-+ CodePipeline ✅
 + CodeDeploy ✅
++ CodePipeline ✅
++ AWS AppConfig
 + AWS XRay
 
 ### 9. Security 
@@ -122,3 +123,8 @@ To write your own sample app, play with...
 ### 11. Cost Management
 + AWS Cost Explorer ✅
 + AWS Budgets ✅
+
+### 12. Miscellaneous
++ Cognito
++ Athena
++ Macie

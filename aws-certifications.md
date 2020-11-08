@@ -9,9 +9,11 @@
 
 ## AWS Certified Developer - Associate
 - [acloud.guru: AWS Certified Developer Associate 2020](https://learn.acloud.guru/course/aws-certified-developer-associate/dashboard)
+- [Bill Boulden: AWS Certified Developer Associate Prep Crash Course]()
 - [Nick Garner: AWS Certified Developer Associate Crash Course **Sep 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-developer-associate-crash-course/0636920447825/)
 - [Nick Garner: AWS Certified Developer (Associate) **2019**](https://learning.oreilly.com/videos/aws-certified-developer/9780134855158)
 - [AWS Training: Exam Readiness: AWS Certified Developer – Associate (Digital)](https://www.aws.training/Details/Curriculum?id=19185)
+
 
 ## AWS Certified SysOp Administrator - Associate
 - [acloud.guru: AWS Certified SysOps Administrator Associate 2020](https://acloud.guru/learn/aws-certified-sysops-administrator-associate?_ga=2.211328726.2113966801.1601496229-472653352.1600688128)
