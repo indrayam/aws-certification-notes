@@ -2,7 +2,7 @@
 
 ## Theoretical Deep-Dive for SAA-C02
 
-## AWS Docs & References
+### AWS Docs & References
 - [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc) 🚧
 - [Amazon Builders' Library](https://aws.amazon.com/builders-library/) 🚧
 - [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
@@ -35,26 +35,31 @@
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920273509/)
 - [AWS Training: Exam Readiness: AWS Certified Solutions Architect – Associate](https://www.aws.training/Details/eLearning?id=20686)
 
-## Hands-On Experience for SAA-C02
+## Getting Hands-On with AWS Services
 
-**Hands-On Goals:**
-- Write or Use Existing sample apps to get hands-on with many (if not, all) of the AWS services listed below
-- Run Multi-tiered Applications on AWS
+### Hands-On Goals:
+Write your own sample app using...
+- *Kotlin*, *Go*
+- *MongoDB*, *Postgres*, *Redis*, *Kafka*
 
-To write your own sample app, play with...
-- *Go*, *Kotlin*
-- *DynamoDB*, *MongoDB*, *Postgres*, *Redis*, *Kafka*
+Build the following apps
+- Web App with a simple frontend form that submits values to a backend
+- Web API that responds with a simple JSON "Hello World" payload
+- Web API that integrates with *DynamoDB* (or, *MongoDB*)
+- Web API that integrates with *Aurora/Postgres* (or, *PostgreSQL*)
+- Web API that integrates with *ElastiCache* (or, *Redis*)
+- Web API that integrates with *SNS* and/or *SQS* (or, *Kafka*)
 
-### 0. AWS and/or Architecture Concepts
+### 1. AWS and/or Architecture Concepts
 - Well Architected Framework
 - Shared Responsibility Model
 - HTTP Protocol
 
-### 1. Identity & Access
+### 2. Identity & Access
 + AWS IAM ✅
 + AWS Organizations ✅
 
-### 2. Networking
+### 3. Networking
 + VPC ✅
 + Elastic Load Balancing (ELB) ✅
 + Route53 ✅
@@ -64,7 +69,7 @@ To write your own sample app, play with...
 + AWS Transit Gateway
 + AWS Global Accelerator
 
-### 3. Compute & Containers
+### 4. Compute & Containers
 + EC2 ✅
 + ASG ✅
 + Elastic Block Store (EBS) ✅
@@ -73,27 +78,27 @@ To write your own sample app, play with...
 + AWS Lambda
 + AWS Fargate 🚧
 
-### 4. Storage
+### 5. Storage
 + Amazon Simple Secure Storage (S3) ✅
 + Amazon Elastic File System (EFS)
 + Amazon S3 Glacier & S3 Glacier Deep Archive
 
-### 5. Database
+### 6. Database
 + RDS Aurora
 + Amazon DynamoDB
 + Amazon ElastiCache (Redis)
 
-### 6. App Integration
+### 7. App Integration
 + Amazon Simple Notification Service (SNS)
 + Amazon Simple Queue Service (SQS)
 + AWS Step Functions
 
-### 7. Analytics
+### 8. Analytics
 + Amazon Kinesis
 + Apache EMR
 + Amazon RedShift
 
-### 8. Developer Tools
+### 9. Developer Tools
 + CodeStar
 + Cloud9
 + CodeCommit ✅
@@ -105,12 +110,12 @@ To write your own sample app, play with...
 + AWS AppConfig
 + AWS XRay
 
-### 9. Security 
+### 10. Security 
 + AWS Certificate Manager ✅
 + AWS Secrets Manager
 + AWS Key Management Service (KMS)
 
-### 10. Management
+### 11. Management
 + CloudWatch
 + CloudTrail
 + AWS Systems Manager
@@ -120,11 +125,11 @@ To write your own sample app, play with...
 + Control Tower
 + Personal Health Dashboard
 
-### 11. Cost Management
+### 12. Cost Management
 + AWS Cost Explorer ✅
 + AWS Budgets ✅
 
-### 12. Miscellaneous
+### 13. Miscellaneous
 + Cognito
 + Athena
 + Macie
