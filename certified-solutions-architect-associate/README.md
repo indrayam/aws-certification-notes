@@ -1,6 +1,6 @@
 # AWS Certified Solutions Architect - Associate (SSA-C02)
 
-## AWS CCP Home
+## AWS Certification Home
 [AWS SSA-C02](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
 ## Exam Format

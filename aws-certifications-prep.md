@@ -1,4 +1,4 @@
-# AWS Certifications
+# AWS Certifications Preparations
 
 ## AWS Certifications
 - AWS Certified Cloud Practitioner ✅

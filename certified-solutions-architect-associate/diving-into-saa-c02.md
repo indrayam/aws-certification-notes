@@ -35,20 +35,7 @@
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920273509/)
 - [AWS Training: Exam Readiness: AWS Certified Solutions Architect – Associate](https://www.aws.training/Details/eLearning?id=20686)
 
-## Getting Hands-On with AWS Services
-
-### Hands-On Goals:
-Write your own sample app using...
-- *Kotlin*, *Go*
-- *MongoDB*, *Postgres*, *Redis*, *Kafka*
-
-Build the following apps
-- Web App with a simple frontend form that submits values to a backend
-- Web API that responds with a simple JSON "Hello World" payload
-- Web API that integrates with *DynamoDB* (or, *MongoDB*)
-- Web API that integrates with *Aurora/Postgres* (or, *PostgreSQL*)
-- Web API that integrates with *ElastiCache* (or, *Redis*)
-- Web API that integrates with *SNS* and/or *SQS* (or, *Kafka*)
+## AWS Services for SAA-C02
 
 ### 1. AWS and/or Architecture Concepts
 - Well Architected Framework
