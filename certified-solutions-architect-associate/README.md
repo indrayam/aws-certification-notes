@@ -31,3 +31,24 @@
 - Identify cost-effective storage solutions
 - Identify cost-effective compute and database services
 - Design cost-optimized network architectures
+
+## Exam Preparation Plans
+
+### Books
+- AWS Certified Solutions Architect Official Study Guide (SAA-C01) 🚧
+- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
+- AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
+
+### Live Training
+- [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
+- [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
+- [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
+- [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
+
+### Optional Learning
+- [freeCodeCamp: AWS Certified Solutions Architect - Associate 2020 (PASS THE EXAM!) **Dec 2019**](https://www.youtube.com/watch?v=Ia-UEYYR44s&feature=youtu.be)
+- [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **Oct 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920319108/)
+- [Mark Wilkins: AWS Design Fundamentals **April 2019**](https://learning.oreilly.com/live-training/courses/aws-design-fundamentals/0636920251668/)
+- [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920273509/)
+- [AWS Training: Exam Readiness: AWS Certified Solutions Architect – Associate](https://www.aws.training/Details/eLearning?id=20686)
+

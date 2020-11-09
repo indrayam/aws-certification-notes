@@ -1,18 +1,4 @@
-# AWS Architecture
-
-## AWS Online Docs & References
-- [AWS Architecture Center](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) 🚧
-- [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?achp_wa1&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
-- [Amazon Builders' Library](https://aws.amazon.com/builders-library/)
-- AWS Well Architected Tool
-- [AWS Archirecture Monthly](https://aws.amazon.com/whitepapers/kindle/?icmpid=link_from_docs_website)
-- [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute%7Ccategory%23databases)
-- [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc)
-- [AWS Free Digital Training](https://www.aws.training/LearningLibrary?filters=language%3A1&filters=digital%3A1&tab=view_all)
-- [AWS Workshops](https://awsworkshop.io/)
-  + [AWS Security Workshops](https://awssecworkshops.com/)
-  + [AWS Global Accelerator Workshop](https://intro-to-global-accelerator.workshop.aws/)
-- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
+# AWS Services
 
 ## AWS App Architecture Samples
 ![AWS Example Architecture v1](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v1.jpg)
@@ -20,8 +6,6 @@
 ![AWS Example Architecture v2](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v2.jpg)
 
 ![AWS Example Architecture v3](https://us-east-1-anand-files.s3.amazonaws.com/aws-example-architecture-v3.jpg)
-
-# AWS Services
 
 ## Part 0: Best-Practice/Cost Optimization Enablers
 - [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html) 🚧
@@ -218,44 +202,3 @@
 
 ### Satellite
 - AWS Ground Station (Fully managed service that lets you control satellite communications, downlink and process satellite data etc.)
-
-# Mastering AWS
-
-## Mastering AWS: Books
-- AWS in a Month of Lunches (Manning)
-- AWS Security (Manning - EAP)
-- AWS in Action 2nd Ed (Manning)
-- AWS The Good Parts (Gumroad)
-- AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
-- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
-- AWS Certified SysOps Administrator Official Study Guide (Cole, Digby, etc.)
-- AWS Certified Developer Official Study Guide (Alteen, Fisher, etc.)
-- AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
-
-## Mastering AWS: VoDs
-- AWS in Motion (Manning)
-- [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
-
-## Mastering AWS: Projects
-- AWS The Good Parts ✅
-- Manning LiveProject: [Automating Infrastructure for an E-commerce Website with Terraform and AWS
-](https://www.manning.com/liveproject/automating-infrastructure-for-an-e-commerce-website-with-terraform-and-aws)
-- Manning LiveProject: [Secure Business Infrastructure with Your Own VPN](https://www.manning.com/liveproject/secure-business-infrastructure-with-a-custom-vpn)
-- Manning LiveProject: [Creating a WhatsApp Notification Service Using AWS Lambda and a Serverless Framework](https://www.manning.com/liveproject/creating-a-whatsapp-notification-service-using-aws-lambda-and-a-serverless-framework)
-- [Github: AWS Boilerplate](https://github.com/apptension/aws-boilerplate)
-
-## AWS CLI Tools
-- AWS CLI v2 for interacting with all your AWS resources: `aws` cli
-  + [Source: AWS CLI v2 installation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html)
-  + `aws`
-- AWS SAM CLI for Serverless Development: `sam`
-  + `brew tap aws/tap` && `brew install aws-sam-cli`
-- AWS ECS CLI 2.0 for Containers based Development: `copilot`
-  + `brew install aws/tap/copilot-cli`
-- Open-source tool to interact with S3: `s3cmd`
-- `sls-dev-tools`
-- AWS CloudFormation Linter: [`cfn-lint`](https://github.com/aws-cloudformation/cfn-python-lint)
-  + `brew install cfn-lint`
-- Stelligent CloudFormation Security Linter: [`cfn-nag`](https://github.com/stelligent/cfn_nag)
-  + `gem install cfn-nag` OR
-  + `brew install ruby brew-gem` && `brew gem install cfn-nag`

@@ -7,18 +7,6 @@
 - AWS Certified Developer - Associate
 - AWS Certified Advanced Networking - Specialty
 
-## AWS Certified Developer - Associate
-- [acloud.guru: AWS Certified Developer Associate 2020](https://learn.acloud.guru/course/aws-certified-developer-associate/dashboard)
-- [Bill Boulden: AWS Certified Developer Associate Prep Crash Course]()
-- [Nick Garner: AWS Certified Developer Associate Crash Course **Sep 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-developer-associate-crash-course/0636920447825/)
-- [Nick Garner: AWS Certified Developer (Associate) **2019**](https://learning.oreilly.com/videos/aws-certified-developer/9780134855158)
-- [AWS Training: Exam Readiness: AWS Certified Developer – Associate (Digital)](https://www.aws.training/Details/Curriculum?id=19185)
-
-
-## AWS Certified SysOp Administrator - Associate
-- [acloud.guru: AWS Certified SysOps Administrator Associate 2020](https://acloud.guru/learn/aws-certified-sysops-administrator-associate?_ga=2.211328726.2113966801.1601496229-472653352.1600688128)
-- [AWS Training: Exam Readiness: AWS Certified SysOps Administrator - Associate](https://www.aws.training/Details/Video?id=27486)
-
 ## AWS Certified Solutions Architect - Professional
 - [acloud.guru: AWS Certified Solutions Architect - Professional 2020](https://acloud.guru/learn/aws-certified-solutions-architect-professional?_ga=2.211328726.2113966801.1601496229-472653352.1600688128)
 - [Dieter Matzion: Managing Cloud Costs **Oct 2019**](https://learning.oreilly.com/live-training/courses/managing-cloud-costs/0636920321736/)
@@ -34,10 +22,94 @@
 - [Designing Serverless Architecture with AWS Lambda **April 2019**](https://learning.oreilly.com/live-training/courses/designing-serverless-architecture-with-aws-lambda/0636920263869/)
 
 ## AWS Networking Specialty Certification
+- Book: AWS Certified Advanced Networking Official Study Guide (Chauhan, Devine, etc.)
 - [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/)
 - [Richard Jones: Networking in AWS **2017**](https://learning.oreilly.com/videos/networking-in-amazon/9780134850849?autoplay=false) 
 - [Michael Shannon: AWS Networking Essential June **2020**](https://learning.oreilly.com/live-training/courses/aws-networking-essentials/0636920407546/)
 - [Chad Smith: AWS Network Certification GitHub Repo](https://github.com/arpcefxl/aws-network-certification)
 
+## AWS Services for all Associate Level Certifications
 
+### 1. AWS and/or Architecture Concepts
+- Well Architected Framework
+- Shared Responsibility Model
+- HTTP Protocol
 
+### 2. Identity & Access
++ AWS IAM ✅
++ AWS Organizations ✅
+
+### 3. Networking
++ VPC ✅
++ Elastic Load Balancing (ELB) ✅
++ Route53 ✅
++ CloudFront ✅
++ Amazon API Gateway
++ AWS App Mesh
++ AWS Transit Gateway
++ AWS Global Accelerator
+
+### 4. Compute & Containers
++ EC2 ✅
++ ASG ✅
++ Elastic Block Store (EBS) ✅
++ AWS Elastic Container Service (ECS) 🚧
++ AWS Elastic Kubernetes Service (EKS) 🚧
++ AWS Lambda
++ AWS Fargate 🚧
+
+### 5. Storage
++ Amazon Simple Secure Storage (S3) ✅
++ Amazon Elastic File System (EFS)
++ Amazon S3 Glacier & S3 Glacier Deep Archive
+
+### 6. Database
++ RDS Aurora
++ Amazon DynamoDB
++ Amazon ElastiCache (Redis)
+
+### 7. App Integration
++ Amazon Simple Notification Service (SNS)
++ Amazon Simple Queue Service (SQS)
++ AWS Step Functions
+
+### 8. Analytics
++ Amazon Kinesis
++ Apache EMR
++ Amazon RedShift
+
+### 9. Developer Tools
++ CodeStar
++ Cloud9
++ CodeCommit ✅
++ CodeBuild ✅
++ CodeArtifact
++ AWS Elastic Container Registry (ECR) ✅
++ CodeDeploy ✅
++ CodePipeline ✅
++ AWS AppConfig
++ AWS XRay
+
+### 10. Security 
++ AWS Certificate Manager ✅
++ AWS Secrets Manager
++ AWS Key Management Service (KMS)
+
+### 11. Management
++ CloudWatch
++ CloudTrail
++ AWS Systems Manager
++ CloudFormation ✅
++ Resource Groups & Tag Editor ✅
++ Trusted Advisor ✅
++ Control Tower
++ Personal Health Dashboard
+
+### 12. Cost Management
++ AWS Cost Explorer ✅
++ AWS Budgets ✅
+
+### 13. Miscellaneous
++ Cognito
++ Athena
++ Macie
