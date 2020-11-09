@@ -4,8 +4,8 @@
 [AWS SSA-C02](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
 ## Exam Format
+- ~60-65 questions
 - 130 mins
-- ~65 questions
 - Your results for the examination are reported as a score from 100-1,000, with a minimum passing score of 720. Your score shows how you performed on the examination as a whole and whether or not you passed.  
 
 ## Exam Domains Categories

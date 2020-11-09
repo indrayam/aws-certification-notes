@@ -1,10 +1,12 @@
-# AWS Books and White Papers
+# Prerequisite: Read AWS Books and/or White Papers
 
 ## Mastering AWS: Books
 - AWS in Action 2nd Ed (Manning)
 - AWS Security (Manning - EAP)
 - AWS The Good Parts
 - The DynamoDB Book
+- Serverless Architecture on AWS 2nd Ed
+- AWS Lambda in Action
 
 ## Mastering AWS: Live Training
 - AWS in Motion (Manning)
