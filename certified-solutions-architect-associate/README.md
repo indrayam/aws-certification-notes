@@ -36,8 +36,9 @@
 
 ### Books
 - AWS Certified Solutions Architect Official Study Guide (SAA-C01) 🚧
-- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
 - AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
+- Select AWS White Papers
+  + Well Architected Framework
 
 ### Live Training
 - [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
@@ -51,4 +52,4 @@
 - [Mark Wilkins: AWS Design Fundamentals **April 2019**](https://learning.oreilly.com/live-training/courses/aws-design-fundamentals/0636920251668/)
 - [Richard Jones: AWS Certified Solutions Architect Associate Crash Course **May 2019**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-crash-course/0636920273509/)
 - [AWS Training: Exam Readiness: AWS Certified Solutions Architect – Associate](https://www.aws.training/Details/eLearning?id=20686)
-
+- AWS Certified Cloud Practitioner Study Guide (Ben Piper & David Clinton)
