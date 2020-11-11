@@ -16,6 +16,17 @@ Write your own sample app using
 - Lambda App that integrates with *S3*
 - Lambda App that integrates with *SNS* and/or *SQS*
 
+## My App: Getting Ops-y
+- Use CloudFormation to spin up AWS infrastructure
+- Use SAM to deploy Serverless Apps
+- Use Code* tools to have CI/CD Pipeline
+- Install Kubernetes on AWS EC2
+  + Persistent Volumes
+  + Nginx or Contour Ingress
+  + Istio
+  + Linkerd
+  ...
+
 ## My App: Stox Shop! 
 - Capabilities:
   + Allow users to create a basket of stocks. 
@@ -36,4 +47,3 @@ Write your own sample app using
 - [Weaveworks Sock Shop](https://microservices-demo.github.io/)
 - [Twitter Voting App](https://github.com/dockersamples/example-voting-app)
 - [Scaling Microservices with Message Queues, Spring Boot and Kubernetes](https://medium.com/hackernoon/scaling-microservices-with-message-queues-spring-boot-and-kubernetes-9ba4b0e48bdf)
-- Install Kubernetes on AWS EC2

@@ -35,16 +35,20 @@
 ## Exam Preparation Plans
 
 ### Books
-- AWS Certified Solutions Architect Official Study Guide (SAA-C01) 🚧
-- AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
-- Select AWS White Papers
-  + Well Architected Framework
+- **December 2020** AWS Certified Solutions Architect Official Study Guide (SAA-C01) 🚧
+- **January 2021** AWS Certified Solutions Architect Study Guide (SAA-C02) (Ben Piper & David Clinton)
+- Select 
+  + **January 2021** AWS White Paper(s): Well Architected Framework
 
 ### Live Training
-- [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
-- [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
-- [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
-- [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
+- **December 2020** [Richard Jones: Amazon Web Services AWS LiveLessons 2nd Edition **May 2019**](https://learning.oreilly.com/videos/amazon-web-services/9780135581247)
+- **December 2020** [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
+- **December 2020** [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
+- **January 2021** [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
+- **January 2021** [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
+
+### Practice Test
+- Pearson VUE
 
 ### Optional Learning
 - [freeCodeCamp: AWS Certified Solutions Architect - Associate 2020 (PASS THE EXAM!) **Dec 2019**](https://www.youtube.com/watch?v=Ia-UEYYR44s&feature=youtu.be)

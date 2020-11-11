@@ -10,7 +10,6 @@
 
 ## Mastering AWS: Live Training
 - AWS in Motion (Manning)
-- [Richard Jones: Getting Started with Amazon Web Services (AWS) **Mar 2019**](https://learning.oreilly.com/live-training/courses/getting-started-with-amazon-web-services-aws/0636920237099/)
 
 ## Mastering AWS: Live Projects
 - AWS The Good Parts ✅

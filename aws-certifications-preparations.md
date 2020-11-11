@@ -181,6 +181,7 @@
 + CloudWatch
   + Monitoring application logs
   + Trigger scheduled Lambda invocation
+  + CloudWatch Lambda Insights **NEW**
   + Custom metrics
   + Metric resolution
 + CloudTrail
