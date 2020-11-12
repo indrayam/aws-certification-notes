@@ -49,3 +49,5 @@
 - [Nick Garner: AWS Certified Developer Associate Crash Course **Sep 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-developer-associate-crash-course/0636920447825/)
 - [Nick Garner: AWS Certified Developer (Associate) **2019**](https://learning.oreilly.com/videos/aws-certified-developer/9780134855158)
 
+### Practice Test
+- Pearson VUE
