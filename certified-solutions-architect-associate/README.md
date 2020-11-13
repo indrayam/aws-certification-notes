@@ -44,6 +44,8 @@
 - **December 2020** [Richard Jones: Amazon Web Services AWS LiveLessons 2nd Edition **May 2019**](https://learning.oreilly.com/videos/amazon-web-services/9780135581247)
 - **December 2020** [Richard Jones: Learning Path: AWS Certified Solutions Architect (Associate), 1/e **Apr 2019**](https://learning.oreilly.com/learning-paths/learning-path-aws/9780135944769/)
 - **December 2020** [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
+- **December 2020** [Mark Wilkins Live: AWS Certified Solutions Architect Prep Session - **Nov 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-prep-session/0636920448471/)
+- **December 2020** [Chad Smith Live: AWS Certified Solutions Architect Associate (SAA-C02) Crash Course **Nov 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-saa-c02-crash-course/0636920467632/)
 - **January 2021** [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
 - **January 2021** [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
 
