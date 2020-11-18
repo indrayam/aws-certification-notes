@@ -46,8 +46,10 @@
 - **December 2020** [acloud.guru: Well Architected Framework](https://learn.acloud.guru/course/aws-well-architected-framework/dashboard)
 - **December 2020** [Mark Wilkins Live: AWS Certified Solutions Architect Prep Session - **Nov 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-prep-session/0636920448471/)
 - **December 2020** [Chad Smith Live: AWS Certified Solutions Architect Associate (SAA-C02) Crash Course **Nov 2020**](https://learning.oreilly.com/live-training/courses/aws-certified-solutions-architect-associate-saa-c02-crash-course/0636920467632/)
+- **December 2020** [AWS Design Fundamentals **Nov 2020**](https://learning.oreilly.com/live-training/courses/aws-design-fundamentals/0636920412991/)
 - **January 2021** [Chad Smith: AWS Certified Solutions Architect - Associate (SAA-C02) **2020**](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246)
 - **January 2021** [acloud.guru: AWS Certified Solutions Architect Associate SAA-C02](https://learn.acloud.guru/course/aws-certified-solutions-architect-associate/dashboard)
+
 
 ### Practice Test
 - Pearson VUE
