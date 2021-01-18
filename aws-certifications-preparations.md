@@ -14,6 +14,7 @@
 - [Richard Jones: AWS From Basics to Advanced **Dec 2017**](https://learning.oreilly.com/learning-paths/learning-path-amazon/9780135116548/?autoplay=false)
 
 ### AWS Certified DevOps Engineer - Professional
+- [AWS Monitoring Strategies *Dec 2020*](https://learning.oreilly.com/live-training/courses/aws-monitoring-strategies/0636920477433/)
 - [Richard Jones: Automation in AWS with CloudFormation **2017**](https://learning.oreilly.com/videos/automation-in-aws/9780134818313?autoplay=false)
 - [Richard Jones: AWS CloudFormation Deep Dive **April 2019**](https://learning.oreilly.com/live-training/courses/aws-cloudformation-deep-dive/0636920252399/)
 - [Chad Smith: AWS Monitoring Strategies **Sept 2020**](https://learning.oreilly.com/live-training/courses/aws-monitoring-strategies/0636920411703/)

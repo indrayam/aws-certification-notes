@@ -54,6 +54,7 @@
 - [Richard Jones: Networking in AWS **2017**](https://learning.oreilly.com/videos/networking-in-amazon/9780134850849?autoplay=false) 
 
 ### Optional Learning
+- [AWS Monitoring Strategies *Dec 2020*](https://learning.oreilly.com/live-training/courses/aws-monitoring-strategies/0636920477433/)
 - [IP Subnetting: From Beginning to Mastery](https://learning.oreilly.com/live-training/courses/ip-subnetting-from-beginning-to-mastery/0636920390091/)
 
 
