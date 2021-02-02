@@ -1,4 +1,4 @@
-# Starting with AWS
+# Starting to use AWS
 
 There are around **30** services/concepts that we will need to get our arms around.
 
