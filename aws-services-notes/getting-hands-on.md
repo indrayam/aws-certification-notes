@@ -58,3 +58,26 @@
 
 - Automate (almost) everything using Terraform
 - Automate (almost) everything using CloudFormation
+
+## AWS Services used in DevHub
+
+- IAM
+- EC2
+  - VPC
+  - Subnet
+  - Security Groups
+  - Route Tables
+  - Internet Gateway
+  - NAT Gateway
+- Route53
+  - Hosted Zones
+  - Traffic Policy
+- ACM
+- ALB
+  - Target Groups
+- Classic ELB
+  - Target Groups
+- EKS
+- RDS
+- S3
+- CloudWatch
