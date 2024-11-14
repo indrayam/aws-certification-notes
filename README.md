@@ -13,7 +13,7 @@
 - [AWS Quick Starts](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.sortDate&quickstart-all.sort-order=desc) 🚧
 - [AWS Compliance](https://aws.amazon.com/compliance/) 🚧
 - AWS Trusted Advisor 🚧
-
+v
 ## Part 1: Getting Started with AWS
 - AWS Identity & Access Management (IAM)
   + AWS Organizations 🚧
